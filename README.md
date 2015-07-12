@@ -1,6 +1,6 @@
 # summer2015
 
-## sign-in list
+## Sign-in list of student attendence
 
 Please sign your name at below
 
