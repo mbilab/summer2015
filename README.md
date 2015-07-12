@@ -4,4 +4,4 @@
 
 Please sign your name at below
 
-* ex: ±i¼w½ð
+* ex: å¼µå¾·è¸¢
