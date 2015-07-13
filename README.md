@@ -6,12 +6,11 @@ This project is for handing out the student's practice and homework in 2015 MBIL
 
 Please sign your name at below
 
-* ex: 張德踢
-      方沛涵
-      方亮中
-      朱柏勳
-	  周曠宇
-	    王秉民
-	    賴柏諺
-      鄭宇傑
-	    蔡岳霖
+* 方沛涵
+* 方亮中
+* 朱柏勳
+* 周曠宇
+* 王秉民
+* 賴柏諺
+* 鄭宇傑
+* 蔡岳霖
