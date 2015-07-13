@@ -1,6 +1,6 @@
 # summer2015
 
-This project is for handing out the student's practice and homework in 2015 MBILab summer training. All the students will work out this repo in common. And let the students familiar with git.
+This project is for 2015 MBILab summer training students handing out their practice and homework. All the students will work out this repo in common. Hope all the students will be familiar with git by this way.
 
 ## 4 Rules of using git
 
