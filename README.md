@@ -8,9 +8,9 @@ Please sign your name at below
 
 * ex: 張德踢
       方沛涵
+      方亮中
       朱柏勳
+	    王秉民
+	    賴柏諺
       鄭宇傑
-	  賴柏諺
-	  王秉民
-	  蔡岳霖
-    方亮中
+	    蔡岳霖
