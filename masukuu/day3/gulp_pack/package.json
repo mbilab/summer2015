@@ -1,0 +1,40 @@
+{
+  "author": "author",
+  "description": "gulp_pack",
+  "engines": {
+    "node": ">=0.10.20"
+  },
+  "homepage": "http://nckuopen.no-ip.org/",
+  "name": "gulp_pack",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "main-bower-files": "~2.0.0",
+    "bower": "~1.2.7",
+    "connect-livereload": "~0.3.2",
+    "express": "~3.4.8",
+    "gulp": "~3.5.5",
+    "gulp-concat": "~2.1.7",
+    "gulp-filter": "~0.3.1",
+    "gulp-jade": "~0.4.2",
+    "gulp-livereload": "~1.2.0",
+    "gulp-livescript": "~0.2.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-stylus": "~0.0.13",
+    "gulp-util": "~2.2.14",
+    "LiveScript": "~1.2.0",
+    "nib": "~1.0.1",
+    "npm": "~1.3.11",
+    "streamqueue": "~0.0.4",
+    "tiny-lr": "0.0.5",
+	"tmp": "0.0.23"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/gulp --require LiveScript build",
+    "postinstall": "node_modules/.bin/bower i",
+    "start": "node_modules/.bin/gulp --require LiveScript watch",
+    "watch": "node_modules/.bin/gulp --require LiveScript watch"
+  },
+  "version": "0.0.1"
+}

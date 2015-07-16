@@ -1,0 +1,15 @@
+{
+  "name": "gulp_pack",
+  "dependencies": {
+    "jquery": "2.0.3",
+    "reset-css": "~2.0.20110126",
+    "semantic-ui": "~1.8.1"
+
+  },
+  "overrides": {
+    "semantic-ui": {
+      "main": "dist/**/*"
+    }
+  },
+  "version": "0.0.1"
+}
