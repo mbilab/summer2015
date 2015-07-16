@@ -11,47 +11,90 @@
     -->
   </head>
   <body>
-	  <h1>exercise-1</h1>
-	  <svg width="1200px" height="200px" viewbox="0 0 1200 200" class="s1"/>
-	  <h1>exercise-2</h1>
-	  <svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s2"/>
-	  <h1>exercise-3</h1>
-	  <svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s3"/>
-	  <script>
-	  	  var v1 = d3.select('.s1').selectAll('.s1 circle').data([3,1,4,1,5,9,2,6,5,3,5,8,9,7,9]);
-		  v1.enter().append('circle').attr({
-			  cx: function(d, i){return i * 70 + 10;},
-			  cy: 100,
-			  r: function(d, i){return d*3.4;},
-			  fill: function(d, i){return 'rgba(' + (i*15) + ',128,192,1)';}
-		  });
-		
-		  d3.json('topic2.json', function(data){
-		  	  var root = {children: data.map(function(d) {return {value: d};})};
-			  var color = d3.scale.category20();
-			  var nodes = d3.layout.pack().size([1200, 600]).nodes(root);
-			  nodes.shift();
-			  console.log(nodes);
-			  var v3 = d3.select('.s3').selectAll('.s3 circle').data(nodes);
-			  v3.enter().append('circle')
-			  .attr({
-			  	  cx: function(d){return d.x;},
-				  cy: function(d){return d.y;},
-				  r: function(d){return d.r;},
-				  stroke: 'black',
-				  fill: function(d){return color(d.r);}
-			  });
-			  d3.select('.s3').selectAll('text').data(nodes).enter()
-			  	  .append('text')
-				  .attr({
-				  	  x: function(d){return d.x;},
-					  y: function(d){return d.y;},
-				  	  "text-anchor": "middle"
-				  }).text(function(d){return d.value;});
-		  });
+	<h1>topic-1 exercise</h1>
+	<svg width="1200px" height="200px" viewbox="0 0 1200 200" class="s1"/>
+	<h1>topic-2 exercise</h1>
+	<svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s2"/>
+	<h1>topic-3 exercise</h1>
+	<svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s3"/>
+	<script>
+		// exercise 1
+	  	var v1 = d3.select('.s1').selectAll('.s1 circle').data([3,1,4,1,5,9,2,6,5,3,5,8,9,7,9]);
+		v1.enter().append('circle').attr({
+			cx: function(d, i){return i * 70 + 50;},
+			cy: 100,
+			r: function(d, i){return d*3.4;},
+			fill: function(d, i){return 'rgba(' + (i*15) + ',128,192,1)';}
+		});
+
+		// exercise 2
+		d3.json('topic2-2.json', function(data){
+			// get data from json file
+			var x = [], y = [], v = [];
+			for(var i = 0; i < data.length; i++)
+			{
+				x[i] = data[i][0];
+				y[i] = data[i][1];
+				v[i] = data[i][2];
+			}
+			// x-axis
+			var x_axis = d3.scale.pow().exponent(4).domain([d3.min(x), d3.max(x)]).range([50, 1150]);
+			var x_ticks = x_axis.ticks(50);
+			x_ticks.push(100);
+			d3.select('.s2').selectAll('rect.x_a').data(x_ticks).enter().append('rect').attr('class','x_a');
+			d3.select('.s2').selectAll('rect.x_a').attr({
+				x: x_axis,
+				y: 570,
+				height: 10,
+				width: 2,
+				fill: 'black'
+			});
+			// y-axis
+			var y_axis = d3.scale.pow().exponent(4).domain([d3.min(y), d3.max(y)]).range([540, 40]);
+			var y_ticks = y_axis.ticks(50);
+			y_ticks.push(100);
+			d3.select('.s2').selectAll('rect.y_a').data(y_ticks).enter().append('rect').attr('class','y_a');
+			d3.select('.s2').selectAll('rect.y_a').attr({
+				x: 20,
+				y: y_axis,
+				height: 2,
+				width: 10,
+				fill: 'black'
+			});
+			// points
+			var v2 = d3.select('.s2').selectAll('.s2 circle').data(v);
+			var color = d3.scale.category20();
+			v2.enter().append('circle').attr({
+				cx: function(d, i){ return x_axis(x[i]);},
+				cy: function(d, i){ return y_axis(y[i]);},
+				r: function(d, i){ return d;},
+				fill: function(d, i){ return color(d);}
+			});
+		});
+
+		// exercise 3
+		d3.json('topic2.json', function(data){
+			var root = {children: data.map(function(d) {return {value: d};})};
+			var color = d3.scale.category20();
+			var nodes = d3.layout.pack().size([1200, 600]).nodes(root);
+			nodes.shift();
+			var v3 = d3.select('.s3').selectAll('.s3 circle').data(nodes);
+			v3.enter().append('circle')
+			.attr({
+				cx: function(d){return d.x;},
+				cy: function(d){return d.y;},
+				r: function(d){return d.r;},
+				stroke: 'black',
+				fill: function(d){return color(d.r);}
+			}).text(function(d){return d.value;});
+				d3.select('.s3').selectAll('text').data(nodes).enter()
+				.append('text')
+			.attr({
+				x: function(d){return d.x;},
+				y: function(d){return d.y;},
+				"text-anchor": "middle"
+			}).text(function(d){return d.value;});
+		});
 	  </script>
-
-  <!-- Start here -->
-
   </body>
 </html>
