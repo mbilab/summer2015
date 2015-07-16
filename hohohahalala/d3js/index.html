@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>template</title>
+    <!-- libraries-->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="d3.min.js"></script>
+    <!-- custom files-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+
+  <!-- Start here -->
+  <svg height="1000px" width="1000px">
+
+<ellipse cx="100" cy="100" rx="20" ry="40"/>
+<ellipse cx="400" cy="100" rx="20" ry="40"/>
+  <path d="M100 200 C100 300 400 300 400 200">
+  </path>
+  </svg>
+
+  </body>
+<script>
+    d3.json("topic2.json",function(data){
+        console.log(data.length);
+    });
+</script>
+</html>
