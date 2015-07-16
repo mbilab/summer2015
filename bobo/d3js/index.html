@@ -15,5 +15,82 @@
       <ellipse cx="150" cy="50" rx="20" ry="30" />
       <path d="M60 100 A50 50 0 0 0 140 100 Z" />
     </svg>
+    <svg class="tests" width="900px" height="300px" viewBox="0 0 900 400" preserveAspectRatio="xMidYMid"/>
+    <script>
+      var dt=[3,1,4,1,5,9,2,6,5,3,5,8,9,7,9];
+      var v = d3.select(".tests").selectAll("circle.test").data(dt);
+      var radius = d3.scale.linear().domain([d3.min(dt),d3.max(dt)]).range([5,30]);
+      v.exit().remove();
+      v.enter().append("circle").attr("class","test");
+      v.attr({cx:function(d,i){return i*60+20;},
+              cy:100,
+              r:radius,
+              fill:"#000"});
+    </script>
+    <svg width="900px" height="500px" viewBox="0 0 450 250" preserveAspectRatio="xMidYMid" style="border: 1px solid #000" class="e2s"></svg>  
+    <script>  
+    d3.json("topic2-2.json",function(data){
+      var mapx = d3.scale.pow().exponent(4).domain([d3.min(data)[0],d3.max(data)[0]]).range([0,100]);
+      ticks = mapx.ticks(20);
+      var vx = d3.select(".e2s").selectAll("rect.e2").data(ticks);
+      vx.enter().append("rect").attr("class","e2");
+      d3.select(".e2s").selectAll("rect.e2").attr({
+        y: 120,
+        height: 5,
+        x: mapx,
+        width: 1,
+        fill: "#000"
+      });
+      var mapy = d3.scale.pow().domain([d3.min(data)[1],d3.max(data)[1]]).exponent(4).range([100,0]);
+      ticks = mapy.ticks(20);
+      var vy = d3.select(".e2s").selectAll("rect.e3").data(ticks);
+      vy.enter().append("rect").attr("class","e3");
+      d3.select(".e2s").selectAll("rect.e3").attr({
+        y: mapy,
+        height: 1,
+        x: 0,
+        width: 5,
+        fill: "#000"
+      });
+      var mapr = d3.scale.pow().domain([d3.min(data)[2],d3.max(data)[2]]).exponent(4).range([1,10]);
+      //var vr = d3.select(".e2s").selectAll("circle.e4").data(ticks);
+      //map.interpolate(function(i){return data[i][2];}).range(["#090","#f00"]);
+    });
+    </script>
+    <svg class="test2" width="900px" height="600px" viewBox="0 0 900 400" preserveAspectRatio="xMidYMid"/>
+    <script>
+      var dt=[3,1,4,1,5,9,2,6,5,3,5,8];
+      root = {children: dt.map(function(d) { return {value: d};})};
+      nodes = d3.layout.pack().size([900,500]).nodes(root);
+      nodes.shift();
+      var v = d3.select(".test2").selectAll("circle.t").data(nodes);
+      var radius = d3.scale.linear().domain([d3.min(nodes),d3.max(nodes)]).range([5,30]);
+      v.exit().remove();
+      v.enter().append("circle").attr("class","t");
+      d3.select(".test2").selectAll("circle.t").style({
+        background: function(d,i) { 
+        return "rgba("+(i*85)+",128,192,1)";
+        },
+      });
+      c5 = d3.scale.category20();
+      d3.select(".test2").selectAll("circle.t")//.data(nodes).enter()
+        //.append("text")
+        .attr({
+          cx:function(d){return d.x;},
+          cy:function(d){return d.y;},
+          r:function(d){return d.r;},
+          stroke:"#000",
+          fill:function(d){return c5(d.value);},
+          //"text-anchor":"middle",
+        });//.text(function(d){return d.value;});
+        d3.select(".test2").selectAll("text").data(nodes).enter()
+          .append("text").attr({
+          x:function(d){return d.x;},
+          y:function(d){return d.y;},
+          "text-anchor":"middle",
+        }).text(function(d){return d.value;});
+
+    //v1=d3.scale.linear().range(["#0ff","#ff0"]);
+    </script>
   </body>
 </html>
