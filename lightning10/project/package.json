@@ -1,0 +1,14 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "* game: http://www.cbssports.com/mlb/gametracker/boxscore/MLB_20150405_STL@CHC \t* term: http://www.student.tw/forum113/thread244672.html \t\t\thttp://www.az-sportsnet.com/sports/?bID=mlb&pID=techterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
+}

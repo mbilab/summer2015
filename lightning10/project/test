@@ -1,0 +1,1049 @@
+ <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="http://sports.cbsimg.net/favicon.ico">
+
+    <title>MLB Baseball Box Score - St. Louis vs. Chicago  - Apr 05, 2015 - CBSSports.com </title>
+
+    <script type="text/javascript">
+//load typekit JS.  Code is as-is from TypeKit
+  (function() {
+    var config = {kitId: 'zpz8rmb', scriptTimeout: 3000};
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//fonts.cbsi.com/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+            <link href="http://sports.cbsimg.net/css/phase3-min-v453.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="http://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="http://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+<link href="http://sports.cbsimg.net/css/scoreboards/main-min-v018.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"http://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"league_abbr":"mlb","arena":"mlb","imageServer":"http://sports.cbsimg.net","requestUri":"/mlb/gametracker/boxscore/MLB_20150405_STL@CHC"});</script>
+<script type='text/javascript' src='http://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='http://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='http://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='http://sports.cbsimg.net/js/global-min-v0085.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+</script>
+
+<script type="text/javascript">
+var isSharethroughBlank = 'untested'; //declare window global
+var storeExtraCover;
+
+function adCallBack(obj) {
+    if (obj.slot == XFP_sharethrough_top && isSharethroughBlank == 'untested') {
+        if (obj.isEmpty) { // ad is blank
+            isSharethroughBlank = 'blank'; // reset to false for next time ad is refreshed
+            CBSi.log('[ShareThrough] adCallback - isEmpty', isSharethroughBlank);
+            showHiddenCover();
+
+        } else {
+            isSharethroughBlank = 'filled';
+            CBSi.log('[ShareThrough] adCallback: ',isSharethroughBlank);
+            // ad is not blank
+            // video component
+            if ('home' == 'blogs_eye_entry') {
+                var length = $('#vidComponent table').length;
+                $('#vidComponent table').eq(length - 1).hide();
+            }
+
+            // 3, 6, or 9 pack
+            var ecLength = $('.featureComponent .coverItem').length;
+            
+            CBSi.log('[ShareThrough] ecLength: ', ecLength);
+            
+            storeExtraCover = $('.featureComponent .coverItem').eq(ecLength-2).html();
+            $('.featureComponent .coverItem').eq(ecLength-2).replaceWith($("#sharethrough_top"));
+            $("#sharethrough_top").addClass('coverItem');
+            $('#sharethrough_top').show();
+        }
+    }
+}
+ 
+function blankAdCallback(width, height, pos) {
+    if (width == 11 && height == 11 && pos == 'top' && (isSharethroughBlank == 'filled' || isSharethroughBlank == 'untested') ) {
+        isSharethroughBlank = 'scheduled'; // set global
+        CBSi.log('[ShareThrough] blankAdCallback: ', width, height, pos, isSharethroughBlank);
+        showHiddenCover();
+    }
+}
+
+function showHiddenCover() {
+    CBSi.log('[ShareThrough] showHiddenCover: start');
+    var ecLength = $('.featureComponent .coverItem').length;    
+    if (typeof storeExtraCover != 'undefined' && storeExtraCover != '') {
+        CBSi.log('[ShareThrough] showHiddenCover: ', storeExtraCover);        
+        $('.featureComponent .coverItem').eq(ecLength-2).html(storeExtraCover)
+    };
+    $('.featureComponent .coverItem').eq(ecLength-2).show();
+
+    if ('home' == 'blogs_eye_entry') {
+        var length = $('#vidComponent table').length;
+        $('#vidComponent table').eq(length - 1).show();
+    }
+}
+
+</script>
+    <!-- optimizely off -->
+<script type="text/javascript">
+var cbsiadGlobal = { };
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/mlb/reg/free/gamecenter_boxscores";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~exclude=mlb~user=anon~team=MLB_CHC,MLB_STL~env=prod~arena=mlb';
+</script>
+    
+      <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");      
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+     
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+
+      </script>
+      <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+      })();
+      </script>      
+      <script type="text/javascript">
+      googletag.cmd.push(function() {
+
+         XFP_leader_top = googletag.defineSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         XFP_skin_ad_call = googletag.defineSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         XFP_marketing_over_top = googletag.defineSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores", [791,30], "marketing_over_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         XFP_mpu_top = googletag.defineSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores", [300,250], "mpu_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         XFP_leader_plus2_bottom = googletag.defineSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/mlb/media/gametracker/gamecenter_boxscores","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "scoring");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("exclude", "mlb"); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("team", "MLB_CHC,MLB_STL"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=scoring~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+      </script>
+   
+    
+<script type='text/javascript'>
+	DY = {scsec : 8765636 ,API: function(){(DY.API.actions = DY.API.actions || []).push(arguments)}};
+		(function() {
+		var s = document.createElement('script'),
+		t = document.getElementsByTagName('script')[0];
+		s.async = true;
+		s.src=('https:'==document.location.protocol?'http://st.dynamicyield.com'.replace('http:','https:') : 'http://st.dynamicyield.com' ) + '/ast?head=true&sec='+DY.scsec;
+		t.parentNode.insertBefore(s, t);
+	})();
+</script>
+<script type='text/javascript' src='//ddrn6tjst80qg.cloudfront.net/api/8765636/api_dynamic.js'></script>
+<script type='text/javascript' src='//ddrn6tjst80qg.cloudfront.net/api/8765636/api_static.js'></script>
+
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="Live MLB baseball box scores at CBSSports.com. Final game statistics for each Major League Baseball game throughout the season."><meta property="og:title" content="Box Scores" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="http://www.cbssports.com/mlb/gametracker/boxscore/MLB_20150405_STL@CHC"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="Box Scores"/><meta itemprop="description" content=""/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@eyeonbaseball" /><meta name="twitter:url" content="http://www.cbssports.com/mlb/gametracker/boxscore/MLB_20150405_STL@CHC" /><meta name="twitter:title" content="Box Scores" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="mlb, box scores, major league baseball box scores, game statistics, CBSSports.com, GameTracker">
+<meta name="googlebot" content="NOODP">
+
+<link rel="canonical" href="http://www.cbssports.com/mlb/gametracker/boxscore/MLB_20150405_STL@CHC">
+<link rel="alternate" title="CBSSports.com: MLB Headlines" href="http://www.cbssports.com/partners/feeds/rss/mlb_news" type="application/rss+xml">
+    <link rel="apple-touch-icon" href="http://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;"><script type="text/javascript">googletag.cmd.push(function() {googletag.display("interstitial");});</script></div>
+<!--googleoff: snippet-->
+<header id="headerRow">
+	
+		<div class="actionBar">
+			<a href="http://www.cbssports.com" om-nope="MediaHeader|Logo"><img src="http://sports.cbsimg.net/images/cbss/ui6/cbs_sports_logo_2x.png" alt="CBSSports.com" class="cbsSportsLogo" /></a>
+    
+			<div class="actionMenu">
+                <table role="presentation" callspacing="0" cellpadding="0"><tbody><tr>
+            <td nowrap="nowrap"><ul><li><a href="https://auth.cbssports.com/login?master_product=150&xurl=http%3A%2F%2Fwww.cbssports.com%2Fmlb%2Fgametracker%2Fboxscore%2FMLB_20150405_STL%40CHC&tag=header;login" om-nope="MediaHeader|Sign In" class="userMenu">Sign In</a><div style="float: left; line-height: 24px; font-size: 15px;">|</div><a href="https://auth.cbssports.com/registration?end=http%3A%2F%2Fwww.cbssports.com%2Fmlb%2Fgametracker%2Fboxscore%2FMLB_20150405_STL%40CHC&master_product=150&tag=header;login" om-nope="MediaHeader|Register" class="userMenu">Register</a></li></ul></td><td><a href="javascript: void window.open('http://www.cbssports.com/help?referurl=/mlb/gametracker/boxscore/MLB_20150405_STL@CHC','h_link','width=1000,height=900,scrollbars=yes')" om-nope="MediaHeader|Help">Help</a></td><td><a href="http://www.cbssports.com/redir?url=4899" om-nope="MediaHeader|Shop">Shop</a></td><td><a href="http://www.cbssports.com/cbssports" om-nope="MediaHeader|TV">TV</a></td><td><a href="http://radio.cbssports.com" om-nope="MediaHeader|Radio">Radio</a></td><td><a href="http://www.cbssports.com/mobile" om-nope="MediaHeader|Mobile">Mobile</a></td><td><a href="http://www.cbssports.com/info/search" om-nope="MediaHeader|Search"><img src="http://sports.cbsimg.net/images/cbss/ui6/magnifying_glass.png" class="globalSearchIcon" width="14" height="13" alt="Search CBSSports.com"></a></td></tr></tbody></table>
+			</div>
+			<div class="networkPromoBox"><div id="headerTvRotator"><a href="http://www.cbssports.com/nfl/superbowl" id="sb50promo"><img src="/images/cbss/ui6/home_sb50_2x.png" width="122" height="36" border="0"></a></div></div>
+            
+			<div id='siteDebug'></div>
+            <div style="position:relative;z-index:5000001">
+                
+            </div>
+		</div>
+	
+	<style type="text/css">
+#menu_soccer {
+    left:457px;
+}
+</style>
+<div class="globalNavContainer">
+    <nav class="globalNav">
+        <ul class="globalMain">
+        <li id="nav_nfl" menu="menu_nfl"><a href="http://www.cbssports.com/nfl" class="globalMainCategory" om-nope="GlobalNav|NFL|MenuItem">NFL</a></li><li id="nav_nba" menu="menu_nba"><a href="http://www.cbssports.com/nba" class="globalMainCategory" om-nope="GlobalNav|NBA|MenuItem">NBA</a></li><li id="nav_mlb" menu="menu_mlb"><a href="http://www.cbssports.com/mlb" class="globalMainCategory active" om-nope="GlobalNav|MLB|MenuItem">MLB</a></li><li id="nav_nhl" menu="menu_nhl"><a href="http://www.cbssports.com/nhl" class="globalMainCategory" om-nope="GlobalNav|NHL|MenuItem">NHL</a></li><li id="nav_collegefootball" menu="menu_collegefootball"><a href="http://www.cbssports.com/collegefootball" class="globalMainCategory" om-nope="GlobalNav|CollegeFootball|MenuItem">NCAA&nbsp;FB</a></li><li id="nav_collegebasketball" menu="menu_collegebasketball"><a href="http://www.cbssports.com/collegebasketball" class="globalMainCategory" om-nope="GlobalNav|CollegeBasketball|MenuItem">NCAA&nbsp;BB</a></li><li id="nav_golf" menu="menu_golf"><a href="http://www.cbssports.com/golf" class="globalMainCategory" om-nope="GlobalNav|Golf|MenuItem">Golf</a></li><li id="nav_highschool" menu="menu_highschool"><a href="http://www.maxpreps.com/national/national.htm" class="globalMainCategory" om-nope="GlobalNav|HighSchool|MenuItem">High School</a></li><li id="nav_local" menu="menu_local"><a href="#" class="globalMainCategory" om-nope="GlobalNav|Local|MenuItem">Local</a></li><li id="nav_video" menu="menu_video"><a href="http://www.cbssports.com/video" class="globalMainCategory" om-nope="GlobalNav|Video|MenuItem">Video</a></li><li id="nav_more" menu="menu_more"><a href="http://www.cbssports.com/info/siteindex" class="globalMainCategory" om-nope="GlobalNav|More|MenuItem">More</a></li><li class="globalMainFantasy" menu="menu_fantasy"><a href="http://www.cbssports.com/fantasy" class="globalMainCategory globalFantasy" om-nope="GlobalNav|Fantasy|MenuItem"><img src="http://sports.cbsimg.net/images/cbss/ui6/fantasy_games_button_2015.png" width="92" height="30" alt="CBSSports.com Fantasy and Games" /></a></li>
+        </ul>
+    </nav><!-- END globalNav -->
+</div><!-- END globalNavContainer-->
+<div id="globaNavMenuContainer">
+        <div id="menu_fantasy" class="globalNavMenu">
+            <div class="fantasyMenuSub">
+                <div>
+                <a href="http://fantasynews.cbssports.com/fantasyfootball/" class="fantasyCategory" om-nope="GlobalNav|Fantasy|FastFacts|Football Home">Fantasy Football News</a><br>
+                <a href="http://fantasynews.cbssports.com/fantasyfootball/playernews"  om-nope="GlobalNav|Fantasy|FastFacts|Football Player News">Player News</a>,
+                <a href="http://fantasynews.cbssports.com/fantasyfootball/rankings" om-nope="GlobalNav|Fantasy|FastFacts|Football Rankings">Rankings</a>,
+                <a href="http://fantasynews.cbssports.com/fantasyfootball/stats/weeklyprojections/QB/season" om-nope="GlobalNav|Fantasy|FastFacts|Football Projections">Projections</a>
+                </div>
+                <div>
+                <a href="http://fantasynews.cbssports.com/fantasybaseball/" om-nope="GlobalNav|Fantasy|FastFacts|Baseball Home" class="fantasyCategory">Fantasy Baseball News</a><br>
+                <a href="http://fantasynews.cbssports.com/fantasybaseball/playernews" om-nope="GlobalNav|Fantasy|FastFacts|Baseball Player News">Player News</a>,
+                <a href="http://fantasynews.cbssports.com/fantasybaseball/rankings" om-nope="GlobalNav|Fantasy|FastFacts|Baseball Rankings">Rankings</a>,
+                <a href="http://fantasynews.cbssports.com/fantasybaseball/stats/sortable/cbs/1B/season/standard/projections" om-nope="GlobalNav|Fantasy|FastFacts|Baseball Projections">Projections</a>
+                </div>
+                <div>
+                <a href="http://fantasynews.cbssports.com/fantasybasketball/"  om-nope="GlobalNav|Fantasy|FastFacts|Basketball Home" class="fantasyCategory">Fantasy Basketball News</a><br>
+                <a href="http://fantasynews.cbssports.com/fantasybasketball/playernews" om-nope="GlobalNav|Fantasy|FastFacts|Basketball Player News">Player News</a>,
+                <a href="http://fantasynews.cbssports.com/fantasybasketball/rankings" om-nope="GlobalNav|Fantasy|FastFacts|Basketball Rankings">Rankings</a>,
+                <a href="http://fantasynews.cbssports.com/fantasybasketball/stats/sortable/points/C/standard/projections" om-nope="GlobalNav|Fantasy|FastFacts|Basketball Projections">Projections</a>
+                </div>
+                <div>
+                <a href="http://fantasynews.cbssports.com/fantasyhockey/" class="fantasyCategory" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Home">Fantasy Hockey News</a><br>
+                <a href="http://fantasynews.cbssports.com/fantasyhockey/playernews" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Player News">Player News</a>,
+                <a href="http://fantasynews.cbssports.com/fantasyhockey/rankings" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Rankings">Rankings</a>,
+                <a href="http://fantasynews.cbssports.com/fantasyhockey/stats/sortable/points/C/standard/projections" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Projections">Projections</a>
+                </div>
+            </div>        
+            <div class="navMenuContent">
+                <div class="topStory" id="cover_fantasy"></div>
+                <div class="fantasyMyTeams">
+    <div class="productPromo"><!-- spln/data/media/fantasy/navigation/logged-out.html -->
+<!-- specify // as protocol instead of http:// so works on https -->
+<table class="fantasyLoggedOut" cellspacing="0" cellpadding="0" border="0" width="445">
+<thead><tr><th width="120"></th><th width="230"></th><th width="95"></th></tr></thead>
+<tbody><tr valign="top">
+    <td><a href="http://www.cbssports.com/fantasy/football/games/commissioner?ttag=FFBC15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Commissioner'});"><img src="http://sports.cbsimg.net/images/fantasy/spoe/logos/football-commissioner.png" border="0" width="110" height="55"></a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/commissioner?ttag=FFBC15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Commissioner'});">Play the ultimate Fantasy Football Game featuring exclusive Player Rewards and Benefits.</a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/commissioner?ttag=FFBC15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Commissioner'});" class="button fantasy">PLAY<br>NOW</a></td>
+</tr><tr valign="top">
+    <td><a href="http://www.cbssports.com/fantasy/football/games/prize-leagues?ttag=FFBP15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Prize Leagues'});"><img src="http://sports.cbsimg.net/images/fantasy/spoe/logos/football-prizeleagues.gif" border="0" width="110" height="55"></a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/prize-leagues?ttag=FFBP15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Prize Leagues'});">Join the competition and play for up to $5,000 in cash prizes.</a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/prize-leagues?ttag=FFBP15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Prize Leagues'});" class="button fantasy">PLAY<br>NOW</a></td>
+</tr><tr valign="top">
+    <td><a href="http://www.cbssports.com/fantasy/football/games/free?ttag=FFBF15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Free'});"><img src="http://sports.cbsimg.net/images/fantasy/spoe/logos/football-free.png" border="0" width="110" height="55"></a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/free?ttag=FFBF15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Free'});">Get into the Fantasy Football action by creating or joining a Free league.</a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/free?ttag=FFBF15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Football Free'});" class="button fantasy">PLAY<br>NOW</a></td>
+</tr><tr valign="top" class="last">
+    <td><a href="http://www.cbssports.com/fantasy/football/games/franchise/2014?ttag=FRFB15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Franchise Football'});"><img src="http://sports.cbsimg.net/images/fantasy/spoe/logos/football-franchise2014.jpg" border="0" width="110" height="55"></a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/franchise/2014?ttag=FRFB15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Franchise Football'});">Be the GM of your own pro team with the Ultimate Football Simulation Game.</a></td>
+    <td><a href="http://www.cbssports.com/fantasy/football/games/franchise/2014?ttag=FRFB15_glbnav" onclick="om.trackClick({'item':'GlobalNav|Fantasy|LoggedOut|Franchise Football'});" class="button fantasy">PLAY<br>NOW</a></td>
+</tr></tbody></table>
+
+</div><div class="clearBoth spacer10"></div><div id="manageLinks" class="products alignCenter"></div></div>
+        </div>
+        <div class="navMenuBottomLinks">
+            <ul id="extras_fantasy">
+                <li><a href="http://fantasynews.cbssports.com" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Projections" om-nope="GlobalNav|Fantasy|Seasonal|Fantasy News and Analysis">Fantasy News and Analysis</a></li><li><a href="http://www.cbssports.com/fantasy" om-nope="GlobalNav|Fantasy|FastFacts|Hockey Projections" om-nope="GlobalNav|Fantasy|Seasonal|All CBS Sports Fantasy Games">All CBS Sports Fantasy Games</a></li><li></li>
+            </ul>
+        </div>  
+    </div>
+            <div id="menu_nfl" class="globalNavMenu">
+                <!-- include file generated Tue Jul 07 12:05:29 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/nfl/" title="NFL News">NFL Home</a></li><li><a href="http://www.cbssports.com/nfl/eye-on-football/25233967/2015-nfl-training-camp-schedule-dates-locations-for-all-32-teams" title="Training Camps">Training Camps</a></li><li><a href="http://www.cbssports.com/nfl/scoreboard" title="NFL Scores">Scores</a></li><li><a href="/nfl/schedules" title="NFL Schedule">Schedule</a></li><li><a href="http://www.cbssports.com/nfl/standings" title="NFL Standings">Standings</a></li><li><a href="http://www.cbssports.com/nfl/stats" title="NFL Stats">Stats</a></li><li><a href="http://www.cbssports.com/nfl/teams" title="NFL Teams">Teams</a></li><li><a href="http://www.cbssports.com/nfl/players" title="NFL Players">Players</a></li><li><a href="http://www.cbssports.com/nfl/transactions/" title="NFL Transactions">Transactions</a></li><li><a href="http://www.cbssports.com/nfl/injuries" title="NFL Injuries">Injuries</a></li><li><a href="http://www.cbssports.com/nfl/powerrankings" title="NFL Power Rankings">Power Rankings</a></li><li><a href="http://www.cbssports.com/nfl/rumors" title="NFL Rumors">Rumors</a></li><li><a href="http://www.cbssports.com/nfl/superbowl" title="Super Bowl">Super Bowl</a></li><li><a href="http://www.cbssports.com/nfl/draft" title="NFLDraftScout.CBSSports.com">Draft</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_nfl"></div>
+            		<section class="headlines fLeft">
+            			<h2>NFL Headlines</h2>
+            			<ul id="headlines_nfl" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_nfl"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_nba" class="globalNavMenu">
+                <!-- include file generated Mon Jul 06 12:45:48 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/nba/" title="NBA News">NBA Home</a></li><li><a href="http://www.cbssports.com/nba/eye-on-basketball/25229808/2015-nba-free-agent-tracker-where-players-are-headed-top-free-agents-available" title="Free Agents">Free Agents</a></li><li><a href="http://www.cbssports.com/nba/scoreboard" title="NBA Scores">Scores</a></li><li><a href="http://www.cbssports.com/nba/schedules" title="Schedule">Schedule</a></li><li><a href="http://www.cbssports.com/nba/standings" title="NBA Standings">Standings</a></li><li><a href="http://www.cbssports.com/nba/stats" title="NBA Stats">Stats</a></li><li><a href="http://www.cbssports.com/nba/teams" title="NBA Teams">Teams</a></li><li><a href="http://www.cbssports.com/nba/players" title="NBA Players">Players</a></li><li><a href="http://www.cbssports.com/nba/transactions" title="NBA Transactions">Transactions</a></li><li><a href="http://www.cbssports.com/nba/injuries" title="NBA Injuries">Injuries</a></li><li><a href="http://www.cbssports.com/topic/1993964/nba-rumors" title="NBA Rumors">Rumors</a></li><li><a href="http://www.cbssports.com/nba/draft" title="NBA Draft">Draft</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_nba"></div>
+            		<section class="headlines fLeft">
+            			<h2>NBA Headlines</h2>
+            			<ul id="headlines_nba" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_nba"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_mlb" class="globalNavMenu">
+                <!-- include file generated Mon Jun 29 15:08:24 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/mlb" title="MLB News">MLB Home</a></li><li><a href="http://www.cbssports.com/mlb/scoreboard" title="MLB Scores">Scores</a></li><li><a href="http://www.cbssports.com/mlb/schedules" title="2015 MLB Schedule">Schedule</a></li><li><a href="http://www.cbssports.com/mlb/standings" title="MLB Standings">Standings</a></li><li><a href="http://www.cbssports.com/mlb/stats" title="MLB Stats">Stats</a></li><li><a href="http://www.cbssports.com/mlb/teams" title="MLB Teams">Teams</a></li><li><a href="http://www.cbssports.com/mlb/players" title="MLB Players">Players</a></li><li><a href="http://www.cbssports.com/mlb/transactions" title="MLB Transactions">Transactions</a></li><li><a href="http://www.cbssports.com/mlb/injuries" title="MLB Injuries">Injuries</a></li><li><a href="http://www.cbssports.com/mlb/odds" title="Odds">Odds</a></li><li><a href="http://www.cbssports.com/mlb/expert-picks" title="Expert Picks">Expert Picks</a></li><li><a href="http://www.cbssports.com/mlb/powerrankings" title="MLB Power Rankings">Power Rankings</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_mlb"></div>
+            		<section class="headlines fLeft">
+            			<h2>MLB Headlines</h2>
+            			<ul id="headlines_mlb" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_mlb"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_nhl" class="globalNavMenu">
+                <!-- include file generated Mon Jul 06 12:47:57 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/nhl/" title="NHL News">NHL Home</a></li><li><a href="http://www.cbssports.com/nhl/eye-on-hockey/25230139/nhl-free-agency-tracker-all-of-the-signings-and-player-movement" title="NHL Free Agents">Free Agents</a></li><li><a href="http://www.cbssports.com/nhl/scoreboard" title="NHL Scores">Scores</a></li><li><a href="http://www.cbssports.com/nhl/schedules" title="Schedule">Schedule</a></li><li><a href="http://www.cbssports.com/nhl/standings" title="NHL Standings">Standings</a></li><li><a href="http://www.cbssports.com/nhl/stats" title="NHL Stats">Stats</a></li><li><a href="http://www.cbssports.com/nhl/teams" title="NHL Teams">Teams</a></li><li><a href="http://www.cbssports.com/nhl/players" title="NHL Players">Players</a></li><li><a href="http://www.cbssports.com/nhl/transactions" title="NHL Transactions">Transactions</a></li><li><a href="http://www.cbssports.com/nhl/injuries" title="NHL Injuries">Injuries</a></li><li><a href="http://www.cbssports.com/nhl/blog/eye-on-hockey/tag/1979968/nhl-rumors" title="Rumors">Rumors</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_nhl"></div>
+            		<section class="headlines fLeft">
+            			<h2>NHL Headlines</h2>
+            			<ul id="headlines_nhl" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_nhl"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_collegefootball" class="globalNavMenu">
+                <!-- include file generated Mon Jun 01 16:25:18 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/collegefootball" title="College Football News">NCAA FB Home</a></li><li><a href="http://www.cbssports.com/collegefootball/scoreboard" title="College Football Scores">Scores</a></li><li><a href="http://www.cbssports.com/collegefootball/standings" title="College Football Standings">Standings</a></li><li><a href="http://www.cbssports.com/collegefootball/schedules" title="College Football Schedules">Schedules</a></li><li><a href=" http://www.cbssports.com/collegefootball/schedules/bowls" title="Playoff/Bowl Schedule">Playoff/Bowl Schedule</a></li><li><a href="http://www.cbssports.com/collegefootball/stats" title="College Football Stats">Stats</a></li><li><a href="http://www.cbssports.com/collegefootball/conferences/SEC" title="Conferences">Conferences</a></li><li><a href="http://www.cbssports.com/collegefootball/teams" title="College Football Teams">Teams</a></li><li><a href="http://www.cbssports.com/collegefootball/players" title="College Football Players">Players</a></li><li><a href="http://www.cbssports.com/collegefootball/rankings" title="College Football Rankings">Rankings</a></li><li><a href="http://247sports.com/Page/247Sports-Football-Recruiting-134" title="College Football Recruiting">Recruiting</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_collegefootball"></div>
+            		<section class="headlines fLeft">
+            			<h2>NCAA&nbsp;FB Headlines</h2>
+            			<ul id="headlines_collegefootball" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_collegefootball"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_collegebasketball" class="globalNavMenu">
+                <!-- include file generated Mon Jun 01 16:11:16 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/collegebasketball" title="College Basketball News">NCAA BB Home</a></li><li><a href="http://www.cbssports.com/collegebasketball/scoreboard" title="College Basketball Scores">Scores</a></li><li><a href="http://www.cbssports.com/collegebasketball/ncaa-tournament" title="NCAA Tournament">NCAA Tournament</a></li><li><a href="http://www.cbssports.com/collegebasketball/standings" title="College Basketball Standings">Standings</a></li><li><a href="http://www.cbssports.com/collegebasketball/teams" title="College Basketball Teams">Teams</a></li><li><a href="http://www.cbssports.com/collegebasketball/schedules" title="College Basketball Schedules">Schedules</a></li><li><a href="http://www.cbssports.com/collegebasketball/stats" title="College Basketball Stats">Stats</a></li><li><a href="http://www.cbssports.com/collegebasketball/players" title="College Basketball Players">Players</a></li><li><a href="http://www.cbssports.com/collegebasketball/rankings" title="College Basketball Rankings">Rankings</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_collegebasketball"></div>
+            		<section class="headlines fLeft">
+            			<h2>NCAA&nbsp;BB Headlines</h2>
+            			<ul id="headlines_collegebasketball" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_collegebasketball"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_golf" class="globalNavMenu">
+                <!-- include file generated Fri Jun 19 13:59:13 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/golf" title="Golf News">Golf Home</a></li><li><a href="http://www.cbssports.com/golf/leaderboard" title="Golf Leaderboard">Leaderboard</a></li><li><a href="http://www.cbssports.com/golf/schedules" title="Golf Schedules">Schedules</a></li><li><a href="http://www.cbssports.com/golf/players" title="Golf Players">Players</a></li><li><a href="http://www.cbssports.com/golf/stats" title="Golf Stats">Stats</a></li><li><a href="http://www.cbssports.com/golf/rankings" title="Rankings">Rankings</a></li><li><a href="http://www.cbssports.com/golf/tournaments/masters" title="Masters">Masters</a></li><li><a href="http://www.cbssports.com/golf/blog/eye-on-golf/tag/1960756/eye-on-golf-equipment" title="Equipment Blog">Equipment</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_golf"></div>
+            		<section class="headlines fLeft">
+            			<h2>Golf Headlines</h2>
+            			<ul id="headlines_golf" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_golf"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_highschool" class="globalNavMenu">
+                <!-- include file generated Thu Dec 19 13:09:13 EST 2013 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.maxpreps.com/" title="MaxPreps Home for High School Sports">High School Home</a></li><li><a href="http://www.maxpreps.com/national/baseball.htm" title="MaxPreps High School Baseball">Baseball</a></li><li><a href="http://www.maxpreps.com/national/basketball.htm" title="MaxPreps High School Boys Basketball Teams List">Boys Basketball</a></li><li><a href="http://www.maxpreps.com/national/football.htm" title="MaxPreps High School Football">Football</a></li><li><a href="http://www.maxpreps.com/national/girls-basketball.htm" title="MaxPreps High School Girls Basketball Teams List">Girls Basketball</a></li><li><a href="http://www.maxpreps.com/national/volleyball.htm" title="MaxPreps High School Volleyball">Girls Volleyball</a></li><li><a href="http://www.maxpreps.com/national/soccer.htm" title="MaxPreps High School Boys Soccer">Boys Soccer</a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_highschool"></div>
+            		<section class="headlines fLeft">
+            			<h2>High School Headlines</h2>
+            			<ul id="headlines_highschool" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_highschool"></ul>
+                </div>
+            </div>
+            
+            <div id="menu_video" class="globalNavMenu">
+                <!-- include file generated Mon Jun 08 16:04:54 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://www.cbssports.com/video/player/videos" title="Video on Demand">Video Home</a></li><li><a href="http://www.cbssports.com/fantasy/video/daily-fantasy-live" title="Daily Fantasy Live">Daily Fantasy Live</a></li><li><a href="http://www.collegesportslive.com" title="College Sports Live">College Sports Live</a></li><li><a href="http://fantasynews.cbssports.com/fantasyfootballtoday" title="Fantasy FB Today">Fantasy FB Today</a></li><li><a href="http://www.cbssports.com/nfl/video/nfl-on-cbs" title="NFL on CBS">NFL on CBS </a></li></ul>
+                <div class="navMenuContent">
+                    <div class="topStory" id="cover_video"></div>
+            		<section class="headlines fLeft">
+            			<h2>Video Headlines</h2>
+            			<ul id="headlines_video" class="headlines"></ul>
+            		</section>
+            	</div>
+                <div class="navMenuBottomLinks">
+                    <ul id="extras_video"></ul>
+                </div>
+            </div>
+            <div id="menu_more" class="globalNavMenu subMenu"><!-- include file generated Mon Jun 08 10:03:45 EDT 2015 --><ul class="menuSub fontUbuntuMed"><li><a href="http://newyork.cbslocal.com" title="CBS Local Sites">CBS Local Sites</a></li><li><a href="http://www.followhorseracing.com/" title="Horse Racing">Horse Racing</a></li><li><a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" title="NASCAR">NASCAR</a></li><li><a href="http://www.cbssports.com/tennis" title="Tennis">Tennis</a></li><li><a href="http://www.cbssports.com/general/eye-on-sports/25207519/complete-2015-fifa-womens-world-cup-schedule-tv-listings" title="Women's World Cup">Women's World Cup</a></li><li><a href="http://www.cbssports.com/boxing" title="Boxing">Boxing</a></li><li><a href="http://www.arenafootball.com/frontpage" title="Arena Football">Arena Football</a></li><li><a href="http://www.avp.com" title="AVP">AVP</a></li><li><a href="http://www.bowl.com" title="Bowling">Bowling</a></li><li><a href="http://www.cbssports.com/olympics" title="2014 Winter Olympics">Olympics</a></li><li><a href="http://www.cbssports.com/mma" title="Mixed Martial Arts">UFC</a></li><li><a href="http://www.cbssports.com/podcast" title="CBSSports.com Podcast Index">Podcasts</a></li><li><a href="http://www.cbssports.com/info/siteindex" title="CBSSports.com Site Index">Site Index</a></li></ul></div><div id="menu_local" class="globalNavMenu subMenu menuSub"><ul class="fLeft"><li><a href="http://atlanta.cbslocal.com/category/sports/" title="CBS Atlanta" target="_blank" om-nope="GlobalNav|Local|FastFacts|Atlanta">Atlanta</a></li><li><a href="http://baltimore.cbslocal.com/category/sports/" title="CBS Baltimore" target="_blank" om-nope="GlobalNav|Local|FastFacts|Baltimore">Baltimore</a></li><li><a href="http://boston.cbslocal.com/category/sports/" title="CBS Boston" target="_blank" om-nope="GlobalNav|Local|FastFacts|Boston">Boston</a></li><li><a href="http://chicago.cbslocal.com/category/sports/" title="CBS Chicago" target="_blank" om-nope="GlobalNav|Local|FastFacts|Chicago">Chicago</a></li><li><a href="http://cleveland.cbslocal.com/category/sports/" title="CBS Cleveland" target="_blank" om-nope="GlobalNav|Local|FastFacts|Cleveland">Cleveland</a></li><li><a href="http://dfw.cbslocal.com/category/sports/" title="CBS Dallas/Fort Worth" target="_blank" om-nope="GlobalNav|Local|FastFacts|Dallas">Dallas / Fort Worth</a></li><li><a href="http://denver.cbslocal.com/category/sports/" title="CBS Denver" target="_blank" om-nope="GlobalNav|Local|FastFacts|Denver">Denver</a></li></ul><ul class="fLeft"><li><a href="http://detroit.cbslocal.com/category/sports/" title="CBS Detroit" target="_blank" om-nope="GlobalNav|Local|FastFacts|Detroit">Detroit</a></li><li><a href="http://houston.cbslocal.com/category/sports/" title="CBS Houston" target="_blank" om-nope="GlobalNav|Local|FastFacts|Houston">Houston</a></li><li><a href="http://losangeles.cbslocal.com/category/sports/" title="CBS Los Angeles" target="_blank" om-nope="GlobalNav|Local|FastFacts|Los Angeles">Los Angeles</a></li><li><a href="http://miami.cbslocal.com/category/sports/" title="CBS Miami" target="_blank" om-nope="GlobalNav|Local|FastFacts|Miami">Miami</a></li><li><a href="http://minnesota.cbslocal.com/category/sports/" title="CBS Minnesota" target="_blank" om-nope="GlobalNav|Local|FastFacts|Minnesota">Minnesota</a></li><li><a href="http://philadelphia.cbslocal.com/category/sports/" title="CBS Philadelphia" target="_blank" om-nope="GlobalNav|Local|FastFacts|Philadelphia">Philadelphia</a></li><li><a href="http://newyork.cbslocal.com/category/sports/" title="CBS New York" target="_blank" om-nope="GlobalNav|Local|FastFacts|New York">New York</a></li></ul><ul class="fLeft"><li><a href="http://pittsburgh.cbslocal.com/category/sports/" title="CBS Pittsburgh" target="_blank" om-nope="GlobalNav|Local|FastFacts|Pittsburgh">Pittsburgh</a></li><li><a href="http://sacramento.cbslocal.com/category/sports/" title="CBS Sacramento" target="_blank" om-nope="GlobalNav|Local|FastFacts|Sacramento">Sacramento</a></li><li><a href="http://sanfrancisco.cbslocal.com/category/sports/" title="CBS San Francisco" target="_blank" om-nope="GlobalNav|Local|FastFacts|San Francisco">San Francisco</a></li><li><a href="http://seattle.cbslocal.com/category/sports/" title="CBS Seattle" target="_blank" om-nope="GlobalNav|Local|FastFacts|Seattle">Seattle</a></li><li><a href="http://stlouis.cbslocal.com/category/sports/" title="CBS St. Louis" target="_blank" om-nope="GlobalNav|Local|FastFacts|St Louis">St. Louis</a></li><li><a href="http://washington.cbslocal.com/category/sports/" title="CBS Washington" target="_blank" om-nope="GlobalNav|Local|FastFacts|Washington">Washington</a></li></ul></div></div><!-- END globalNavMenus-->
+
+<script>
+$(".userMenu.loggedIn").click(function () {
+    $(this).parent().toggleClass("active");
+    $("#userInfo").toggleClass("active");
+    $(".userName").toggleClass("active");
+});
+</script>
+	
+	<div id="fastFactsContainer"><ul id="fastFactsNav" section="fastFacts.mlb" class="inline"><li section="MLB Home"><a href="/mlb"  om-event="FastFactNav|MLB|MLB Home">MLB Home</a></li><li section="Scores"><a href="/mlb/scoreboard"  om-event="FastFactNav|MLB|Scores">Scores</a></li><li section="Schedules"><a href="/mlb/schedules"  om-event="FastFactNav|MLB|Schedules">Schedules</a></li><li section="Standings"><a href="/mlb/standings"  om-event="FastFactNav|MLB|Standings">Standings</a></li><li section="Stats"><a href="/mlb/stats"  om-event="FastFactNav|MLB|Stats">Stats</a></li><li section="Teams"><a href="/mlb/teams"  om-event="FastFactNav|MLB|Teams">Teams</a></li><li section="Players"><a href="/mlb/players"  om-event="FastFactNav|MLB|Players">Players</a></li><li section="Transactions"><a href="/mlb/transactions"  om-event="FastFactNav|MLB|Transactions">Transactions</a></li><li section="Injuries"><a href="/mlb/injuries"  om-event="FastFactNav|MLB|Injuries">Injuries</a></li><li section="Rumors"><a href="/topic/2143202/mlb-rumors?tag_text=MLB%20Rumors"  om-event="FastFactNav|MLB|Rumors">Rumors</a></li><li section="Power Rankings"><a href="/mlb/powerrankings"  om-event="FastFactNav|MLB|Power Rankings">Power Rankings</a></li></ul></div><!-- END fastFactsContainer -->
+</header>
+<style type="text/css">
+.leagueSelector .leagueSelectorArrow {top: 21px; right:0px;}
+#saagBoxScores.soccerSaag td.score {padding-left:8px;}
+#saagBoxScores.soccerSaag td.status {padding-left:2px;}
+#saagBoxScores.soccerSaag .liveEvent td.status {text-align:center;}
+#saagBoxScores.soccerSaag .status span.group {text-align: center; display: block;}
+#saagBoxScores.soccerSaag td.status span.period,
+#saagBoxScores.soccerSaag td.status span.clock {display:inline-block;}
+#saagBoxScores.soccerSaag td.score {text-align:center;}
+#saagBoxScores.soccerSaag span.clock {margin-left: 10px;}
+#saagBoxScores.soccerSaag li.postEvent td.status a {margin-left: 2px;}
+
+#saagWrapper.suppressSAAGSlider .prevArrow,
+#saagWrapper.suppressSAAGSlider .nextArrow {display:none;}
+#saagScoresExtras {visibility:hidden; float:left; width:0px;}
+/* size the scores extra per specific promo; only one promo has ever been used at one time...so far*/
+#saagScoresExtras.show {
+  visibility: visible;
+  width: 282px;
+  margin-right: 8px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+/*custom promo class tailored to masters promo and scores list widths*/
+#saagScores.saagEventPromo  {
+    width:417px !important; height: 40px;
+    margin-left: 6px; margin-right: 6px;
+}
+#saagScoresList ul.golfSaag li {
+//    background:none;
+//    background-color:#133119;
+}
+#saagScoresList ul.golfSaag li, #saagScoresList ul.golfSaag li a {color:#EAEAEA !important;}
+</style>
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        googletag.cmd.push(function() {googletag.display("skin_ad_call");});
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        </script>
+    </div>
+    <div align="center" style="height:auto;">
+    
+            <div id="leader_top" style="padding-top:10px;">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {googletag.display("leader_top");});
+                if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+            </script>
+            </div>
+            
+</div>
+<div id="pageRow">
+    
+    
+    <div id="pageContainer">
+        <h1 class="pageTitle feature mlb">MLB Box Score - St. Louis vs. Chicago</h1>
+        <ul class="optPrimary options tab"><li><a    class="opt  " href="/mlb/gametracker/live/MLB_20150405_STL@CHC" >GameTracker</a></li><li class="tabSep"></li><li><a    class="opt  " href="/mlb/gametracker/playbyplay/MLB_20150405_STL@CHC" >Full Play-by-Play</a></li><li class="tabSep"></li><li class="optsel"><a    class="optsel  " href="/mlb/gametracker/boxscore/MLB_20150405_STL@CHC" >Box Score</a></li><li class="tabSep"></li><li><a    class="opt  " href="/mlb/gametracker/recap/MLB_20150405_STL@CHC" >Recap</a></li></ul>
+        
+        <div id="layoutRailNone">
+            
+            
+            <div id="marketing_over_top">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {googletag.display("marketing_over_top");});
+                if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="marketing_over_top" style="width:300px"><br>').insertBefore('#marketing_over_top');
+            </script>
+            </div>
+        <script type="text/javascript">
+/* Custom time code is in this file since the purpose of timezone.html is for
+  a document that does not use script.html but needs timezone formatting based
+  on users custom time preference.
+  Yes...this code is duplicated from the global JS
+*/
+var DAYS = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+var days = new Array("Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat");
+var MONTHS = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+var months = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+var tzOffset = "4";
+var tzAbbrev = 'ET';
+if(tzOffset.charAt(0) == "<") {tzOffset = "-1";}tzOffset = parseInt(tzOffset);
+function phhmm(gmt){document.write(formatTime('%I:%M %p',gmt));}
+function pMD(gmt){document.write(formatTime('%m/%d',gmt));}
+function formatTime(format, gmtTime){
+    gmtTime = new String(gmtTime);if(!parseInt(gmtTime) || gmtTime.indexOf(':') != -1 ||  gmtTime.indexOf('.') != -1){return gmtTime;}
+    var time;var offset = 0;
+    if(tzOffset != -1 && tzOffset != new Date().getTimezoneOffset()){offset = 60 * (new Date().getTimezoneOffset() - (tzOffset * 60));}
+    time = new Date((parseInt(gmtTime) + parseInt(offset))*1000);
+    var t = '';var H = time.getHours();var M = time.getMinutes();var S = time.getSeconds();var d = time.getDate();var m = time.getMonth();var w = time.getDay();var Y = time.getYear();
+    if(Y<1900){Y+=1900;}
+    var y = Y % 100;
+    for(var i=0;i<format.length;i++){
+        if(format.charAt(i)=='%' && (i+1)<format.length){
+            var c = format.charAt(i+1);
+            switch(c){
+                case 'a':{ t+=days[w]; break; } //abbreviated weekday name
+                case 'A':{ t+=DAYS[w]; break; } //full weekday name
+                case 'b':{ t+=months[m]; break; } //abbreviated month name
+                case 'B':{ t+=MONTHS[m]; break; } //full month name
+                case 'd':{ if(d<10){ t+='0';} t+=new String(d); break;}//day of the month; leading zeros
+                case 'D':{ t+=new String(d); break;} //day of the month
+                case 'H':{ t+=new String(H); break;} //24-hour clock); leading zeros
+                // 12-hour clock as a decimal number
+                case 'I':{ if(H>12){ t+=new String(H - 12); }else if(H==0){ t+='12'; }else{ t+=new String(H); }break; }
+                case 'l':{ if(H>12){ t+=new String(H - 12); }else if(H==0){ t+='12'; }else{ if (H >9) { t+= new String(H);}else{t+=(new String(H)).replace(/^0+/, '');} }break; }
+                case 'm':{ t+=new String(m+1); break;}//month as a decimal number (1-12)
+                case 'n':{ if(m<9){ t+='0';} t+=new String(m+1); break;} //month; leading zeros
+                case 'M':{ if(M<10){ t+='0';} t+=new String(M); break;} //minute; leading zeros
+                case 'p':{ if(H<12){ t+='am';}else{ t+='pm' } break;} //replaced by 'AM' or 'PM'
+                case 'S':{ if(S<10){ t+='0';} t+=new String(S); break;}//second; leading zeros
+                case 'w':{ t+=w; break; } //weekday
+                case 'y':{ if(y<10){ t+='0';} t+=new String(y); break;}//year without century; leading zeros
+                case 'Y':{ t+=new String(Y); break;}//year with century
+                case 'Z':{ t+=new String(tzAbbrev); break;}//timezone abbreviation.
+                case '%':{ t+='%'; break;}//%% is replaced by %
+            }
+            i++;
+        }
+        else{
+            t+=format.charAt(i);
+        }
+    }
+    return t;
+}
+/* !!!Code here because this file is used in places that do not use script.html!!! */
+if (typeof(CBSi) != "undefined") {
+    CBSi.namespace('CBSi.widget.Time');
+    (function() {
+        CBSi.widget.Time = {
+        /**
+        * Update an element text node with a formatted GMT value
+        * SEE global JS for documentation
+        */
+            update:function (selector, format) {
+                if (!selector) {return;}
+                var container  = $(selector);
+                if (container.length > 0) {
+                    container.filter('.updateTime, .gmtTime').not('.gmtTimeUpdated').each(function() {
+                        var time = $(this).attr('data-gmt') || $(this).attr('gmt');
+                        if (!time) {return;}
+                        //modify CSS class for tracking whats changed
+                        $(this).removeClass('updateTime, gmtTime').addClass('gmtTimeUpdated');
+                        var timeFormat = format || $(this).attr('data-gmt-format')
+                            || '%I:%M %p';
+                        $(this).html(formatTime(timeFormat, time) );
+                    });
+                }
+                return;
+            }
+        }
+    })();
+}
+$(document).ready(function() {
+    if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+});
+</script>
+
+<style type="text/css">
+.scoreBox {
+    float: none !important;
+}
+.away {background:#cc0000; color:#FFF; font-weight: bold;}
+.home {background:#0e3386; color:#FFF; font-weight: bold;}
+
+table.boxscore-atlgames td.league {
+    background: #EBEBEB;
+}
+table.data tr.atlgames td {
+    padding: 3px 7px;
+}
+</style>
+<table class="boxscore-atlgames" width="100%" border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td width="100%" class="league"><table class="data condensed stacked" width="100%"><tr class="title"><td colspan="8">National League</td></tr><tr class="row2 atlgames"><td id="g2161780"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td><b>STL</b></td>
+    <td align="right" width="24"><b>3</b></td>
+    <td align="right" width="38" rowspan="2"><a href="/mlb/gametracker/boxscore/MLB_20150405_STL@CHC"><script type="text/javascript">document.write(formatTime('%I:%M %p','Final'));</script></a></td>
+</tr>
+<tr><td>CHC</td>
+    <td align="right">0</td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td><td id="g"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td>
+    <td align="right" width="24"></td>
+    <td align="right" width="38" rowspan="2"><script type="text/javascript">document.write(formatTime('%I:%M %p',''));</script></td>
+</tr>
+<tr><td></td>
+    <td align="right"></td>
+</tr></table></td></tr></table></td></tr></table><table width="100%">
+<tr><td align="right">All times are US/Eastern</td></tr>
+</table>
+
+
+
+<table width="960" border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="650">
+   <h2 style="margin-top:10px;">Cardinals 3, Cubs 0</h2>
+   <div class="scoreBox"><span id="board2161780"><table class="lineScore mlbBoxScore postEvent"><tr class="gameInfo"><td class="gameStatus"></td><td class="finalStatus" colspan="12">Final</td></tr><tr class="periodLabels MLBSTL"><td></td><td><div>1</div></td><td><div>2</div></td><td><div>3</div></td><td><div>4</div></td><td><div>5</div></td><td><div>6</div></td><td><div>7</div></td><td><div>8</div></td><td><div>9</div></td><td><div>R</div></td><td><div>H</div></td><td class="periodFinal"><div>E</div></td></tr><tr class="teamInfo awayTeam MLBSTL"><td class="teamName"><a href="/mlb/teams/page/STL/st-louis-cardinals"><img delaysrc="http://sports.cbsimg.net/images/mlb/logos/40x40/STL.png" width="40" height="40" border="0" class="teamLogo"></a><div class="teamLocation"><a href="/mlb/teams/page/STL/st-louis-cardinals">St. Louis</a> <div class="teamRecord">(1-0)</div></div></td><td class="periodScore">1</td><td class="periodScore">1</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">1</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="runsScore">3</td><td class="hitsScore">10</td><td class="errorsScore">0</td></tr></tr><tr class="teamInfo homeTeam MLBCHC"><td class="teamName"><a href="/mlb/teams/page/CHC/chicago-cubs"><img delaysrc="http://sports.cbsimg.net/images/mlb/logos/40x40/CHC.png" width="40" height="40" border="0" class="teamLogo"></a><div class="teamLocation"><a href="/mlb/teams/page/CHC/chicago-cubs">Chicago</a> <div class="teamRecord">(0-1)</div></div></td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="periodScore">0</td><td class="runsScore">0</td><td class="hitsScore">5</td><td class="errorsScore">2</td></tr></tr></table></span><div class="gameExtras"><div id="alerts2161780" class="visualPlayAlerts pBottom10"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td id="plays2161780" class="playAlerts"><div class="mTop10"><b>W:</b> A. Wainwright (1-0) <b>L:</b> J. Lester (0-1) <b>S:</b> T. Rosenthal (1)</div><div class="mTop10"><div class="mTop5"><b>HR:</b> <b>STL</b> - None &nbsp; <b>CHC</b> - None</div></div></td><td id="situation2161780" align="right"></td></tr></table></div><span id="links2161780"><table class="scoreLinks"><tr><td><a href="/mlb/gametracker/boxscore/MLB_20150405_STL@CHC" class="gameTracker">Box Score</a><span class="gtDelimiter">|</span><a href="/mlb/gametracker/recap/MLB_20150405_STL@CHC" class="gameTracker">Recap</a><span class="gtDelimiter">|</span><a href="/mlb/gametracker/live/MLB_20150405_STL@CHC" class="gameTracker">GameTracker</a></td></tr></table></span></div></div> 
+</td>
+<td width="300">
+   <div class="spacer20">&nbsp;</div>
+   
+    <div id="mpu_top" class="mBottomStd">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {googletag.display("mpu_top");});
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="mpu_top" style="width:300px"><br>').insertBefore('#mpu_top');
+        </script>
+    </div> 
+</td>
+</tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="49%">
+    <table class="data" width="100%" ><tr class="away"><td colspan="11">St. Louis Cardinals</td></tr><tr class="label"  ><td align="left">Hitters</td><td align="right">AB</td><td align="right">R</td><td align="right">H</td><td align="right">RBI</td><td align="right">BB</td><td align="right">SO</td><td align="right">LOB</td><td align="right">AVG</td><td align="right">OBP</td><td align="right">SLG</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1794765">Matt Carpenter</a>, 3B</td><td  align="right" width="7%">5</td><td  align="right" width="7%">1</td><td  align="right" width="7%">2</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.400</td><td  align="right">.400</td><td  align="right">.400</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1611138">Jason Heyward</a>, RF</td><td  align="right" width="7%">5</td><td  align="right" width="7%">1</td><td  align="right" width="7%">3</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.600</td><td  align="right">.600</td><td  align="right">1.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/181555">Matt Holliday</a>, LF</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">2</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.500</td><td  align="right">.600</td><td  align="right">.500</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1099038">Peter Bourjos</a>, PR-CF</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/224393">Jhonny Peralta</a>, SS</td><td  align="right" width="7%">5</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">5</td><td  align="right" width="8%">.200</td><td  align="right">.200</td><td  align="right">.200</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1810388">Matt Adams</a>, 1B</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">5</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/390815">Yadier Molina</a>, C</td><td  align="right" width="7%">2</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">2</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.500</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1894637">Kolten Wong</a>, 2B</td><td  align="right" width="7%">3</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="7%">4</td><td  align="right" width="8%">.000</td><td  align="right">.250</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1661504">Jon Jay</a>, CF-LF</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.500</td><td  align="right">.500</td><td  align="right">.750</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/389743">Adam Wainwright</a>, P</td><td  align="right" width="7%">3</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">3</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1803785">Carlos Martinez</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<b>a-</b><a href="/mlb/players/playerpage/1098995">Mark Reynolds</a>, PH</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1520602">Jordan Walden</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1937341">Trevor Rosenthal</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1"  align="right"><td  align="left"><b>Totals</b></td><td  align="right">36</td><td  align="right">3</td><td  align="right">10</td><td  align="right">3</td><td  align="right">4</td><td  align="right">11</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left">a-struck out for Martinez in the 8th</td></tr><tr class="subtitle"><td colspan="11">Batting</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>2B</b> - Jason Heyward 2 (2, Lester), Jon Jay (1, Strop)</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left"><b>RBI</b> - Matt Carpenter (1), Matt Holliday 2 (2)</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>2-OUT RBI</b> - Matt Carpenter (1)</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left"><b>SB</b> - Jason Heyward (1, 3rd base off Lester/Ross), Matt Holliday (1, 2nd base off Lester/Ross), Peter Bourjos (1, 3rd base off Rondon/Montero), Kolten Wong (1, 3rd base off Lester/Ross)</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>CS</b> - Matt Carpenter (1, 2nd base by Lester/Ross)</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left"><b>Team LOB</b> - 10</td></tr><tr class="subtitle"><td colspan="11">Fielding</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>PB</b> - Yadier Molina (1)</td></tr></table>
+</td>
+<td width="2%"> </div>
+<td width="49%">
+    <table class="data" width="100%" ><tr class="home"><td colspan="11">Chicago (N.L.) Cubs</td></tr><tr class="label"  ><td align="left">Hitters</td><td align="right">AB</td><td align="right">R</td><td align="right">H</td><td align="right">RBI</td><td align="right">BB</td><td align="right">SO</td><td align="right">LOB</td><td align="right">AVG</td><td align="right">OBP</td><td align="right">SLG</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1208709">Dexter Fowler</a>, CF</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.250</td><td  align="right">.250</td><td  align="right">.500</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1988873">Jorge Soler</a>, RF</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1670417">Anthony Rizzo</a>, 1B</td><td  align="right" width="7%">3</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">2</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.000</td><td  align="right">.250</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1671044">Starlin Castro</a>, SS</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.250</td><td  align="right">.250</td><td  align="right">.250</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1473575">Chris Coghlan</a>, LF</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.250</td><td  align="right">.250</td><td  align="right">.500</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1757980">Mike Olt</a>, 3B</td><td  align="right" width="7%">4</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/288982">David Ross</a>, C</td><td  align="right" width="7%">2</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.500</td><td  align="right">.500</td><td  align="right">1.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/546238">Jason Motte</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1804112">Neil Ramirez</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<b>a-</b><a href="/mlb/players/playerpage/2044523">Arismendy Alcantara</a>, PH-2B</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.500</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/580589">Jon Lester</a>, P</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">1</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1638998">Phil Coke</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<b>b-</b><a href="/mlb/players/playerpage/580594">Miguel Montero</a>, PH-C</td><td  align="right" width="7%">2</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%"><a href="/mlb/players/playerpage/1954553">Tommy La Stella</a>, 2B</td><td  align="right" width="7%">3</td><td  align="right" width="7%">0</td><td  align="right" width="7%">1</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">2</td><td  align="right" width="8%">.333</td><td  align="right">.333</td><td  align="right">.333</td></tr><tr class="row1" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1392909">Pedro Strop</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row2" id="batter"  align="right"><td  align="left" width="50%">&nbsp;&nbsp;&nbsp;<a href="/mlb/players/playerpage/1630091">Hector Rondon</a>, P</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="7%">0</td><td  align="right" width="8%">.000</td><td  align="right">.000</td><td  align="right">.000</td></tr><tr class="row1"  align="right"><td  align="left"><b>Totals</b></td><td  align="right">32</td><td  align="right">0</td><td  align="right">5</td><td  align="right">0</td><td  align="right">2</td><td  align="right">12</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td><td  align="right">&nbsp;</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left">a-walked for Ramirez in the 7th</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left">b-lined out for Coke in the 5th</td></tr><tr class="subtitle"><td colspan="11">Batting</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>2B</b> - Dexter Fowler (1, Wainwright), Chris Coghlan (1, Wainwright), David Ross (1, Wainwright)</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="11" align="left"><b>SB</b> - Tommy La Stella (1, 2nd base off Wainwright/Molina)</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>Team LOB</b> - 7</td></tr><tr class="subtitle"><td colspan="11">Fielding</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="11" align="left"><b>E</b> - Miguel Montero (1, Throwing), David Ross (1, Throwing)</td></tr></table>
+</td>
+</tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="49%">
+    <table class="data" width="100%" ><tr class="away"><td colspan="9">St. Louis Cardinals</td></tr><tr class="label"  ><td align="left">Pitchers</td><td align="right">IP</td><td align="right">H</td><td align="right">R</td><td align="right">ER</td><td align="right">BB</td><td align="right">SO</td><td align="right">HR</td><td align="right">ERA</td></tr><tr class="row1"  align="right"><td  align="left"><a href="/mlb/players/playerpage/389743">Adam Wainwright</a> <font color=#ce0000>(W,1-0)</font></td><td  align="right">  6</td><td  align="right">5</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">6</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row2"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1803785">Carlos Martinez</a> <font color=#ce0000>(H,1)</font></td><td  align="right">  1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">1</td><td  align="right">1</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row1"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1520602">Jordan Walden</a> <font color=#ce0000>(H,1)</font></td><td  align="right">  1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">1</td><td  align="right">2</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row2"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1937341">Trevor Rosenthal</a> <font color=#ce0000>(S,1)</font></td><td  align="right">  1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">3</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="9" align="left"><b>Pitches-Strikes</b> - Adam Wainwright 101-60, Carlos Martinez 20-11, Jordan Walden 19-12, Trevor Rosenthal 16-9</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="9" align="left"><b>Ground Balls-Fly Balls</b> - Adam Wainwright 6-6, Carlos Martinez 2-0, Jordan Walden 1-0</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="9" align="left"><b>Batters Faced</b> - Adam Wainwright 23, Carlos Martinez 4, Jordan Walden 4, Trevor Rosenthal 3</td></tr></table>
+</td>
+<td width="2%"> </div>
+<td width="49%">
+    <table class="data" width="100%" ><tr class="home"><td colspan="9">Chicago (N.L.) Cubs</td></tr><tr class="label"  ><td align="left">Pitchers</td><td align="right">IP</td><td align="right">H</td><td align="right">R</td><td align="right">ER</td><td align="right">BB</td><td align="right">SO</td><td align="right">HR</td><td align="right">ERA</td></tr><tr class="row1"  align="right"><td  align="left"><a href="/mlb/players/playerpage/580589">Jon Lester</a> <font color=#ce0000>(L,0-1)</font></td><td  align="right">  4.1</td><td  align="right">8</td><td  align="right">3</td><td  align="right">3</td><td  align="right">2</td><td  align="right">6</td><td  align="right">0</td><td  align="right"> 6.23</td></tr><tr class="row2"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1638998">Phil Coke</a></td><td  align="right">  0.2</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">1</td><td  align="right">2</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row1"  align="right"><td  align="left"><a href="/mlb/players/playerpage/546238">Jason Motte</a></td><td  align="right">  1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row2"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1804112">Neil Ramirez</a></td><td  align="right">  1</td><td  align="right">1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">1</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row1"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1392909">Pedro Strop</a></td><td  align="right">  1</td><td  align="right">1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">2</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row2"  align="right"><td  align="left"><a href="/mlb/players/playerpage/1630091">Hector Rondon</a></td><td  align="right">  1</td><td  align="right">0</td><td  align="right">0</td><td  align="right">0</td><td  align="right">1</td><td  align="right">0</td><td  align="right">0</td><td  align="right"> 0.00</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="9" align="left"><b>IBB</b> - Molina by Phil Coke</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="9" align="left"><b>Pitches-Strikes</b> - Jon Lester 89-57, Phil Coke 11-6, Jason Motte 14-12, Neil Ramirez 10-8, Pedro Strop 16-10, Hector Rondon 18-10</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="9" align="left"><b>Ground Balls-Fly Balls</b> - Jon Lester 5-1, Jason Motte 1-2, Neil Ramirez 1-1, Pedro Strop 1-0</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="9" align="left"><b>Batters Faced</b> - Jon Lester 22, Phil Coke 3, Jason Motte 3, Neil Ramirez 4, Pedro Strop 4, Hector Rondon 4</td></tr></table>
+</td></tr>
+</table>
+
+<table class="data" width="100%" ><tr class="home"><td colspan="1">Game Information</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="1" align="left"><B>Attendance</b> - 35055</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="1" align="left"><B>Game Time</b> - 3:04</td></tr><tr class="row1" id="footnote"  align="right"><td  colspan="1" align="left"><B>Temperature</b> - 44</td></tr><tr class="row2" id="footnote"  align="right"><td  colspan="1" align="left"><b>Umpires</b> - Home - Mike Winters, First Base - Mark Wegner, Second Base - Marty Foster, Third Base - Mike Muchlinski</td></tr></table>
+
+    
+            </div><!-- END layoutRailNone-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {googletag.display("leader_plus2_bottom");});
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+    }
+    </script>
+</div>
+
+
+    <footer id="footer" section="footer">
+    
+    <div id="footerContainer">
+        
+        
+        
+<form action="" name="cbsi_footer" id="cbsi_footer">
+<label for="cbsi_footer_menu">Visit other CBS Interactive Sites</label>
+<select name="cbsi_footer_menu" id="cbsi_footer_menu">
+<option value="">Select Site</option>
+<option value="http://www.cbscares.com/">CBS Cares</option>
+<option value="http://www.cbsfilms.com">CBS Films</option>
+<option value="http://www.cbsinteractive.com">CBS Interactive</option>
+<option value="http://www.cbsradio.com/">CBS Radio</option>
+<option value="http://www.cbs.com">CBS.com</option>
+<option value="http://www.cbsnews.com">CBSNews.com</option>
+<option value="http://www.cbssports.com">CBSSports.com</option>
+<option value="http://www.chow.com">CHOW</option>
+<option value="http://www.clicker.com">Clicker</option>
+<option value="http://www.cnet.com">CNET</option>
+<option value="http://collegenetwork.cbssports.com">College Network</option>
+<option value="http://www.gamespot.com">GameSpot</option>
+<option value="http://www.last.fm">Last.fm</option>
+<option value="http://www.maxpreps.com/national/national.htm">MaxPreps</option>
+<option value="http://www.metacritic.com">Metacritic.com</option>
+<option value="http://www.metrolyrics.com">MetroLyrics</option>
+<option value="http://www.cbsnews.com/moneywatch/">Moneywatch</option>
+<option value="http://www.mysimon.com">mySimon</option>
+<option value="http://radio.com">Radio.com</option>
+<option value="http://www.search.com">Search.com</option>
+<option value="http://shopper.cnet.com">Shopper.com</option>
+<option value="http://www.sho.com/sho/home">Showtime</option>
+<option value="http://www.smartplanet.com">SmartPlanet</option>
+<option value="http://www.techrepublic.com">TechRepublic</option>
+<option value="http://www.tv.com">TV.com</option>
+<option value="http://www.tvguide.com">TVGuide.com</option>
+<option value="http://www.urbanbaby.com">UrbanBaby</option>
+<option value="http://www.zdnet.com">ZDNet</option>
+</select>
+<input type="button" value="Go" onClick="window.location=document.getElementById('cbsi_footer_menu').options[document.getElementById('cbsi_footer_menu').selectedIndex].value;" />
+</form>
+<noscript><div><a href="http://www.cbscares.com/">CBS Cares</a> | <a href="http://www.cbsfilms.com">CBS Films</a> | <a href="http://www.cbsinteractive.com">CBS Interactive</a> | <a href="http://www.cbsradio.com/">CBS Radio</a> | <a href="http://www.cbs.com">CBS.com</a> | <a href="http://www.cbsnews.com">CBSNews.com</a> | <a href="http://www.cbssports.com">CBSSports.com</a> | <a href="http://www.chow.com">CHOW</a> | <a href="http://www.clicker.com">Clicker</a> | <a href="http://www.cnet.com">CNET</a> | <a href="http://collegenetwork.cbssports.com">College Network</a> | <a href="http://www.gamespot.com">GameSpot</a> | <a href="http://help.com">Help.com</a> | <a href="http://www.last.fm">Last.fm</a> | <a href="http://www.maxpreps.com/national/national.htm">MaxPreps</a> | <a href="http://www.metacritic.com">Metacritic.com</a> | <a href="http://www.metrolyrics.com">MetroLyrics</a> | <a href="http://www.cbsnews.com/moneywatch/">Moneywatch</a> | <a href="http://www.mysimon.com">mySimon</a> | <a href="http://radio.com">Radio.com</a> | <a href="http://www.search.com">Search.com</a> | <a href="http://shopper.cnet.com">Shopper.com</a> | <a href="http://www.sho.com/sho/home">Showtime</a> | <a href="http://www.smartplanet.com">SmartPlanet</a> | <a href="http://www.techrepublic.com">TechRepublic</a> | <a href="http://www.tv.com">TV.com</a> | <a href="http://www.tvguide.com">TVGuide.com</a> | <a href="http://www.urbanbaby.com">UrbanBaby</a> | <a href="http://www.zdnet.com">ZDNet</a></div></noscript>
+ 
+<nav class="mTop5 mBottom5">
+    <a href="http://www.cbssports.com/info/aboutus">About CBSSports.com</a> |
+    <a href="http://www.cbsinteractive.com/advertise/" target="_blank">Advertise</a> |
+    <a href="http://www.cbssports.com/sitemap">Site Map</a> |
+    <a href="http://developer.cbssports.com">Development Center</a> |
+    <a href="http://collegenetwork.cbssports.com" target="_blank">College Network</a> |
+    <a href="http://www.cbssports.com/info/closed-caption">Closed Captioning</a>
+    <span id="mobileLink"> </span>
+</nav> 
+&copy; 2015 CBS Interactive. All rights reserved. | <a href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a> | <a href="http://legalterms.cbsinteractive.com/adchoice">Ad Choice</a> | <a href="http://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a> | <a href="http://legalterms.cbsinteractive.com/eula">Mobile User Agreement</a>
+<div class="spacer5">&nbsp;</div>
+
+        <div>CBS Sports is a registered trademark of CBS Broadcasting Inc. SportsLine is a registered service mark of SportsLine.com, Inc.</div>
+    </div>
+</footer>
+
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="http://sports.cbsimg.net/js/global-footer-min-v0093.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+
+    <script type="text/javascript">
+    var globalNav;  // FIX ME: global scoping Not really working, it's rescoped somewhere inside the block below [RP]
+    $(document).ready(function() {
+        var globalNav = new CBSi.app.GlobalNavigation({'jsDebug':0  ,'ffyCoordOffset':24});var navContentJson = {"video":{"ulive":{"headlines":[{"target":"_new","href":"http://ulive.cbssports.com/?media=496206","content":"Texas Tech Set To Make 14th Straight NCAA Appearance","title":"Texas Tech Set To Make 14th Straight NCAA Appearance"},{"target":"_new","href":"http://ulive.cbssports.com/?media=494825","content":"MLAX | St. John's Highlights","title":"Denver defeated St. John's 18-5 on Saturday afternoon in Queens. "}],"header":"<a href=\"http://www.collegesportslive.com\" target=\"_blank\"><img src=\"http://sports.cbsimg.net/images/video/collegesportslive/cbssportslive_082614.png\" height=\"32\" width=\"150\" border=\"0\" alt=\"College Sports Live\" class=\"uLiveHeader\"></a>"},"minicover":{"body":"Before he was a star at North Carolina or the all-time greatest NBA player, Michael Jordan was a high school kid working on becoming a great player.","synopsis":"Before he was a star at North Carolina or the all-time greatest NBA player, Michael Jordan was a high school kid working on becoming a great player.","href":"http://www.cbssports.com/video/player/videos/481031235749/0/rare-video-of-michael-jordan-from-high-school","photo":{"width":"160","seq_no":"1","href":"http://sports.cbsimg.net/images/cbsmedia/video/thumbnails/ViralJordan_418613_320x180.jpg","height":"120"},"title":"Rare video of Michael Jordan from high school"},"headlines":[{"href":"http://www.cbssports.com/video/player/videos/480666179933/0/deandre-jordan-decides-to-return-to-clippers","content":"DeAndre Jordan decides to return to Clippers"},{"href":"http://www.cbssports.com/video/player/videos/480648259667/0/jason-pierre-paul-having-his-right-index-finger-amputated","content":"Jason Pierre-Paul having his right index finger amputated"},{"href":"http://www.cbssports.com/video/player/videos/480337475709/0/matt-gogel-talks-mickelson-and-british-open","content":"Matt Gogel talks Mickelson and British Open"}]},"golf":{"minicover":{"body":" With Rory McIlroy out of British Open, not only do we miss out an a possible title defense, but also the potential showdown with Jordan Spieth. <a om-nope=\"GlobalNav|Golf|Cover|Story\" href=\"http://www.cbssports.com/golf/eye-on-golf/25236464/the-five-most-disappointing-things-about-rory-mcilroy-missing-the-open\">Five Disappointments</a> ","synopsis":"Rory won't go in Open","photo":{"width":"231","seq_no":"1","content_id":"25236482","href":"$IMAGE_SERVER/u/photos/golf/img25236482.jpg","height":"130"},"href":"http://www.cbssports.com/golf/eye-on-golf/25236464/the-five-most-disappointing-things-about-rory-mcilroy-missing-the-open","title":"We'll miss ya, McIlroy"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25236287/pga-tour-expert-picks-john-deere-classic","content":"Expert Picks: John Deere Classic -- take Spieth"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25236291/rory-mcilroy-will-not-play-in-the-open-championship-due-to-ankle-injury","content":"Rory McIlroy withdraws from British Open"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25236217/opinions-on-what-rory-mcilroys-injury-means-vary-wildly","content":"Experts weigh in on meaning of McIlroy injury"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25236225/jordan-spieth-almost-fell-in-while-catching-a-tuna-and-shark-at-the-same-time","content":"Spieth: I hooked tuna, shark at the same time"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25236176/news-broadcaster-doubles-down-on-rory-mcilroy-being-a-leprechaun","content":"Newscaster doubles down on her Rory critique"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25235516/scott-stallings-suspended-by-pga-tour-for-performance-enhancing-drugs","content":"Stallings suspended by PGA Tour for PED use"},{"paid":"false","href":"http://www.cbssports.com/golf/eye-on-golf/25235389/pga-grand-slam-moves-event-away-from-donald-trump-course-in-los-angeles","content":"PGA yanks Grand Slam from Trump's LA course"}]},"nfl":{"minicover":{"body":" The fallout from Jason Pierre-Paul's fireworks mishap continues to worsen. The Giants DE reportedly has his finger amputated as hospital medical records are leaked. <a om-nope=\"GlobalNav|NFL|Cover|Story\" href=\"http://www.cbssports.com/nfl/eye-on-football/25236708/report-jason-pierre-paul-has-right-index-finger-amputated\">Story</a> ","synopsis":"Pierre-Paul's fireworks incident","photo":{"width":"231","seq_no":"1","content_id":"25237095","href":"$IMAGE_SERVER/u/photos/football/nfl/img25237095.jpg","height":"130"},"href":"http://www.cbssports.com/nfl/eye-on-football/25236708/report-jason-pierre-paul-has-right-index-finger-amputated","title":"Pierre-Paul's fireworks fallout"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25236363/buccaneers-cb-cj-wilson-suffers-hand-injury-in-fireworks-injury","content":"Fireworks mishap injures Buccaneers CB Wilson"},{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25236292/federal-judge-orders-cancellation-of-redskins-trademark-registration","content":"Redskins dealt loss in trademark registration fight"},{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25237104/report-rose-bowl-will-not-be-temporary-host-of-los-angeles-nfl-team","content":"Report: Rose Bowl won't host an LA NFL team"},{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25237064/ex-ravens-dt-ngata-ive-never-been-part-of-a-defense-like-lions","content":"Ex-Raven Ngata: Lions loaded with playmakers"},{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25237097/roger-goodell-nfl-ruling-on-deflategate-coming-soon-perhaps-next-week","content":"Goodell: Ruling on Brady, Deflategate coming"},{"paid":"false","href":"http://www.cbssports.com/nfl/eye-on-football/25236595/andre-johnson-i-wanted-to-play-for-dolphins-but-they-never-called","content":"Andre Johnson wanted Dolphins, got no call"}]},"college football":{"minicover":{"body":" <b>Patterson:</b> Vince Young vs. USC. Cal beats the Stanford band. If Twitter had been invented back in the day, would it have survived epic moments like these? <a om-nope=\"GlobalNav|CollegeFootball|Cover|Story\" href=\"http://www.cbssports.com/collegefootball/eye-on-college-football/25236163/old-school-college-football-moments-that-wouldve-broken-twitter\">Story</a> ","synopsis":"Old-school CFB vs. Twitter","photo":{"width":"231","seq_no":"1","content_id":"25236497","href":"$IMAGE_SERVER/u/photos/football/college/img25236497.jpg","height":"130"},"href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25236163/old-school-college-football-moments-that-wouldve-broken-twitter","title":"If Twitter existed back then ..."},"headlines":[{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25237102/former-ohio-state-signee-changes-course-signs-with-georgia","content":"Three-star OL signee spurns Ohio St. for UGA"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25235302/lawyer-female-instigated-fsu-qb-punch-with-racial-slur-knee-to-groin","content":"Lawyer: female provoked punch"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25236213/deandre-johnson-dismissal-turns-up-focus-on-oklahoma-rb-joe-mixon","content":"Oklahoma legend talks Mixon 'double standard'"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25236544/notre-dame-navy-to-play-2016-meeting-in-jacksonville","content":"Notre Dame, Navy to play in Jacksonville"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25236283/sec-announces-players-in-attendance-for-sec-media-days","content":"SEC Media Days attendees announced"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25236484/fsus-jalen-ramsey-gts-justin-thomas-more-headed-to-acc-media-days","content":"ACC, too"},{"paid":"false","href":"http://www.cbssports.com/collegefootball/eye-on-college-football/25235575/2015-heisman-odds-trevone-boykin-leaps-ezekiel-elliott-in-latest-odds","content":"Heisman Odds: TCU's Boykin jumps Ezekiel"}]},"mlb":{"minicover":{"body":" <p> <b>Snyder:</b> Both the Mariners and the Red Sox have fallen short of expectations in the first half. But which of the two is most likely to turn things around? <a om-nope=\"GlobalNav|MLB|Cover|Story\" href=\"http://www.cbssports.com/mlb/story/25236129/mlb-power-rankings-cardinals-on-top-at-midway-point\">Power Rankings</a> ","synopsis":"MLB Power Rankings","photo":{"width":"231","seq_no":"1","content_id":"25236756","href":"$IMAGE_SERVER/u/photos/baseball/mlb/img25236756.jpg","height":"130"},"href":"http://www.cbssports.com/mlb/story/25236129/mlb-power-rankings-cardinals-on-top-at-midway-point","title":"Ready for a turnaround?"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25236299/eye-on-mlb-july-8-live-updates-on-the-best-of-wednesdays-game","content":"<b>Eye on MLB:</b> Best of Wednesday around baseball"},{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25236617/home-run-derby-participants-announced","content":"HR Derby list includes rookies Bryant, Pederson"},{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25233900/mlb-all-star-game-starters-revealed-live-updates","content":"<b>ASG starters:</b> Donaldson, Harper top the ballot"},{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25234670/mlb-all-star-game-snubs-a-rod-justin-turner-lead-the-way","content":"Snubs"},{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25236788/video-alex-gordon-injured-chasing-ball-on-warning-track-carted-off","content":"<img src=\"http://sports.cbsimg.net/images/video.gif\" height=\"10\" width=\"18\"/>Alex Gordon injures groin, carted off field"},{"paid":"false","href":"http://www.cbssports.com/mlb/gametracker/recap/MLB_20150708_STL@CHC/peralta-hits-2-out-2-run-hr-in-9th-cardinals-jolt-cubs-6-5","content":"Peralta's homer in 9th sends Cards past Cubs"},{"paid":"false","href":"http://www.cbssports.com/mlb/eye-on-baseball/25236844/watch-yadier-molina-ejected-after-arguing-during-live-ball","content":"Molina ejected"}]},"nhl":{"minicover":{"body":" <b>Peters:</b> After a flurry of free-agent signings and trades, we take a closer look at which players appear to be the best fits for their new teams, like Phil Kessel to the Pens. <a om-nope=\"GlobalNav|NHL|Cover|Story\" href=\"http://www.cbssports.com/nhl/eye-on-hockey/25236293/which-nhl-offseason-acquisitions-are-best-fits-for-their-new-teams\">Story</a> ","synopsis":"Best NHL free agent fits","photo":{"width":"231","seq_no":"1","content_id":"25236487","href":"$IMAGE_SERVER/u/photos/hockey/img25236487.jpg","height":"130"},"href":"http://www.cbssports.com/nhl/eye-on-hockey/25236293/which-nhl-offseason-acquisitions-are-best-fits-for-their-new-teams","title":"Five best moves"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25237063/lightning-steven-stamkos-in-no-hurry-to-start-contract-talks","content":"Stamkos, Lightning waiting on extension talks"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25235307/blues-sign-vladimir-tarasenko-to-8-year-60-million-contract","content":"Blues' Tarasenko signs eight-year, &#036;60M deal"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25235228/watch-connor-mcdavid-put-on-a-show-at-oilers-prospect-camp","content":"<img src=\"http://sports.cbsimg.net/images/video.gif\">McDavid impresses at Oilers prospect camp"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25234395/nhl-expansion-kansas-city-unlikely-to-be-in-mix-for-new-franchise","content":"Kansas City unlikely to bid for expansion team"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25234437/bruins-sign-jimmy-hayes-to-3-year-69-million-contract","content":"Bruins sign Hayes for three years, &#036;6.9 million"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25234660/evgeny-kuznetsov-signs-new-2-year-6-million-deal-with-capitals","content":"Kuznetsov gets 2-year, &#036;6M deal from Caps"},{"paid":"false","href":"http://www.cbssports.com/nhl/eye-on-hockey/25234578/alexander-radulov-wont-rule-out-nhl-return-in-2016","content":"Radulov won't rule out NHL return for 2016"}]},"extras":{"collegefootball":{"links":[{"href":"http://www.cbssports.com/writers/dennis-dodd","content":"Dennis Dodd"},{"href":"http://www.cbssports.com/writers/jon-solomon","content":"Jon Solomon"},{"href":"http://www.cbssports.com/collegefootball/blog/eye-on-college-football","content":"Eye On College FB"}]},"video":{"links":[{"href":"http://www.cbssports.com/video/player/doug-gottlieb","content":"Gottlieb"},{"href":"http://www.cbssports.com/video/player/boomer-carton","content":"Boomer & Carton"},{"href":"http://www.cbssports.com/video/player/titan-mma","content":"Titan FC"},{"href":"http://www.cbssports.com/video/player/we-need-to-talk","content":"We Need to Talk"}]},"golf":{"links":[{"href":"http://www.cbssports.com/golf/blog/eye-on-golf","content":"Eye on Golf"},{"href":"http://www.cbssports.com/golf/tournaments/britishopen","content":"British Open"},{"href":"http://www.cbssports.com/video/player/golf","content":"Video"},{"href":"http://www.cbssports.com/golf/rankings/cup-points","content":"FedEx Cup"}]},"nfl":{"links":[{"href":"http://www.cbssports.com/nfl/blog/eye-on-football","content":"Eye on Football"},{"href":"http://www.cbssports.com/writers/pete-prisco","content":"Pete Prisco"},{"href":"http://www.cbssports.com/writers/jason-la-canfora","content":"Jason La Canfora"}]},"olympics":{"links":[{"href":"http://www.cbssports.com/olympics/blog/eye-on-olympics","content":"Eye on Olympics"}]},"mlb":{"links":[{"href":"http://www.cbssports.com/mlb/blog/eye-on-baseball","content":"Eye on Baseball"},{"href":"http://www.cbssports.com/writers/jon-heyman","content":"Jon Heyman"},{"href":"http://www.cbssports.com/topic/2143202/mlb-rumors?tag_text=MLB%20Rumors","content":"Rumors"}]},"nhl":{"links":[{"href":"http://www.cbssports.com/nhl/blog/eye-on-hockey","content":"Eye on Hockey"},{"href":"http://www.cbssports.com/topic/1979968/nhl-rumors","content":"Rumors"},{"href":"http://www.cbssports.com/nhl/powerrankings","content":"Power Rankings"}]},"collegebasketball":{"links":[{"href":"http://www.cbssports.com/collegebasketball/blog/eye-on-college-basketball","content":"Eye on College BB"},{"href":"http://www.cbssports.com/nba/draft","content":"NBA Draft"},{"href":"http://www.cbssports.com/collegebasketball/rankings/top25","content":"Top 25 (And One)"},{"href":"http://247sports.com/Page/Basketball-Recruiting-News-and-Message-Boards-100135?referer=CBSSPORTS","content":"247 Sports"}]},"tennis":{"links":[{"href":"http://www.cbssports.com/tennis/history","content":"Grand Slam History"},{"href":"http://www.cbssports.com/tennis/usopen/schedule","content":"U.S. Open TV Schedule"}]},"nba":{"links":[{"href":"http://www.cbssports.com/nba/blog/eye-on-basketball","content":"Eye on Basketball"},{"href":"http://www.cbssports.com/writers/ken-berger","content":"Ken Berger"},{"href":"http://www.cbssports.com/nba/powerrankings","content":"Power Rankings"}]},"worldcup":{"links":[{"href":"http://www.cbssports.com/world-cup/eye-on-world-cup","content":"Eye on World Cup"},{"href":"http://www.cbssports.com/topic/303439/united-states?tag_text=United%20States","content":"Team USA Coverage"}]},"autoracing":{"links":[{"href":"http://www.cbssports.com/nascar/chase","content":"Chase"},{"href":"http://www.cbssports.com/nascar/blog/eye-on-nascar","content":"Eye on NASCAR"},{"href":"http://www.cbssports.com/nascar/photos","content":"Photos"}]}},"config":{"omni_event":"More","brackets":{"omni_event":"Brackets","cover":0,"domEl":"brackets","active":0,"headlines":0},"olympics":{"omni_event":"Olympics","cover":1,"domEl":"olympics","active":1,"headlines":1},"mlb":{"omni_event":"MLB","cover":1,"domEl":"mlb","active":1,"headlines":1},"maxpreps":{"omni_event":"HighSchool","cover":1,"domEl":"highschool","active":1,"headlines":1},"tennis":{"omni_event":"Tennis","cover":1,"domEl":"tennis","active":1,"headlines":1},"college basketball":{"omni_event":"CollegeBasketball","cover":1,"domEl":"collegebasketball","active":1,"headlines":1},"autoracing":{"omni_event":"NASCAR","cover":1,"domEl":"autoracing","active":1,"headlines":1},"golf":{"omni_event":"Golf","cover":1,"domEl":"golf","active":1,"headlines":1},"video":{"omni_event":"Video","ulive":1,"cover":1,"domEl":"video","active":1,"headlines":1},"nfl":{"omni_event":"NFL","cover":1,"domEl":"nfl","active":1,"headlines":1},"college football":{"omni_event":"CollegeFootball","cover":1,"domEl":"collegefootball","active":1,"headlines":1},"nhl":{"omni_event":"NHL","cover":1,"domEl":"nhl","active":1,"headlines":1},"nfl draft":{"omni_event":"NFLDraft","cover":1,"domEl":"nfldraft","active":0,"headlines":0},"nba":{"omni_event":"NBA","cover":1,"domEl":"nba","active":1,"headlines":1},"worldcup":{"omni_event":"WorldCup","cover":1,"domEl":"worldcup","active":1,"headlines":1},"fantasy news":{"omni_event":"Fantasy","cover":1,"domEl":"fantasy","active":1,"headlines":1},"more sports":{"cover":0,"domEl":"more","active":1,"headlines":0}},"tennis":{"minicover":{"body":null,"href":"http://www.cbssports.com/general/eye-on-sports/24695919/us-open-caroline-wozniacki-moves-into-final-as-peng-shuai-retires"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/general/eye-on-sports/24695919/us-open-caroline-wozniacki-moves-into-final-as-peng-shuai-retires","content":"Latest news"}]},"maxpreps":{"minicover":{"paid":null,"body":"We're counting down the nation's preseason Top 25 high school football teams, starting with Nos. 25-21. The countdown runs through June 26.","synopsis":"We're counting down the nation's preseason Top 25 high school football teams, starting with Nos. 25-21. The countdown runs through June 26.","photo":{"href":"http://images.maxpreps.com/includes/images/cbssportsmenu/130789517690588194.jpg"},"href":"http://www.maxpreps.com/events/earlyContenders/default.aspx","title":"Unveiling the Top 25"},"headlines":[{"paid":null,"href":"http://www.maxpreps.com/news/dwaDbB50J0uqmPXN15BE1w/maxpreps-2015-all-american-softball-team.htm","content":"MaxPreps 2015 All-American Softball Team"},{"paid":null,"href":"http://www.maxpreps.com/news/O7ueV59pB0qEqI8EtOBoBA/video--georgia-wide-receiver-records-46-inch-vertical-jump-at-the-opening.htm","content":"Georgia WR records 46-inch vertical jump"},{"paid":null,"href":"http://www.maxpreps.com/news/2Fpvyhr5OkeWMQXLeQ-Nhg/maxpreps-preseason-top-25-volleyball-early-contenders--nos-20-16.htm","content":"VB Early Contenders: Nos. 20-16"},{"paid":null,"href":"http://www.maxpreps.com/news/9pX5O44n4EeH5PWP7KKuDg/maxpreps-2015-all-american-baseball-team.htm","content":"MaxPreps All-American Baseball Team"},{"paid":null,"href":"http://www.maxpreps.com/news/Ox8d3arXA0iwiPdzqxr7_A/5-takes-from-the-opening-day-1--little-quarterbacks-step-up-big.htm","content":"Opening Top 5: Small QBs step up big"},{"paid":null,"href":"http://www.maxpreps.com/news/ipL4NE9HREerLdvKNzlwIg/preseason-football-photo-shoot--clay-chalkville.htm","content":"Preseason Photo Shoot: Clay-Chalkville"}]},"nba":{"minicover":{"body":" <b>Berger:</b> DeAndre Jordan walks away from a deal with Mavs to stay with LA. In a day of emoji wars and sophomoric hijinks, it's a bad look for the league. <a om-nope=\"GlobalNav|NBA|Cover|Story\" href=\"http://www.cbssports.com/nba/writer/ken-berger/25236886/free-agent-circus-ends-with-jordan-back-in-la-league-looking-foolish\">Story</a> ","synopsis":"NBA free agency","photo":{"width":"231","seq_no":"1","content_id":"25236879","href":"$IMAGE_SERVER/u/photos/basketball/nba/img25236879.jpg","height":"130"},"href":"http://www.cbssports.com/nba/writer/ken-berger/25236886/free-agent-circus-ends-with-jordan-back-in-la-league-looking-foolish","title":"Jordan staying with Clippers"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/nba/writer/ken-berger/25236383/free-agent-chaos-clips-plead-with-deandre-jordan-to-nix-mavs-deal","content":"Clips plead with Jordan to nix Mavs deal"},{"paid":"false","href":"http://fantasynews.cbssports.com/fantasybasketball/update/25237068/report-heat-sign-sg-gerald-green","content":"Report: Heat sign SG Gerald Green for a year"},{"paid":"false","href":"http://fantasynews.cbssports.com/fantasybasketball/update/25237074/nets-reach-deal-with-free-agent-guard-wayne-ellington","content":"Nets reach deal with Ellington"},{"paid":"false","href":"http://www.cbssports.com/topic/2178284/2015-nba-free-agency?tag_text=2015%20NBA%20Free%20Agency","content":"<b>More FA analysis</b>"},{"paid":"false","href":"http://fantasynews.cbssports.com/fantasybasketball/update/25237090/raptors-sign-pf-luis-scola-to-one-year-deal","content":"Raptors sign big man Scola to 1-year contract"},{"paid":"false","href":"http://fantasynews.cbssports.com/fantasybasketball/update/25237096/raptors-waive-well-traveled-pg-luke-ridnour","content":"Raptors release veteran journeyman G Ridnour"},{"paid":"false","href":"http://fantasynews.cbssports.com/fantasybasketball/update/25237115/jazz-to-sign-german-c-tibor-pleiss","content":"Jazz buy out contract of German center Pleiss"}]},"college basketball":{"minicover":{"body":" <b>Rothstein:</b> Illinois State will vie for an NCAA at-large bid, but talented and experienced Wichita State should maintain its reign in the Missouri Valley Conference. <a om-nope=\"GlobalNav|CollegeBasketball|Cover|Story\" href=\"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25236127/five-offseason-questions-missouri-valley-conference\">Story</a> ","synopsis":"Rothstein: Look ahead at MVC","photo":{"width":"231","seq_no":"1","content_id":"25236154","href":"$IMAGE_SERVER/u/photos/basketball/college/img25236154.jpg","height":"130"},"href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25236127/five-offseason-questions-missouri-valley-conference","title":"Offseason questions: MVC"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25235589/austin-nichols-leaving-memphis","content":"Memphis junior Nichols decides he'll transfer"},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25235163/dukes-mike-krzyzewski-felt-petrified-asking-beyonce-for-a-photo","content":"Coach K 'petrified' asking Beyonce for photo"},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25235218/michigan-state-florida-announce-home-and-home-msu-hosts-in-dec","content":"Michigan St., UF announce home-and-home"},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25234251/cuse-kentucky-atop-attendance-numbers-ncaa-tourney-sees-uptick","content":"Syracuse, Kentucky top attendance figures "},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25233003/pg-alterique-gilbert-top-25-in-class-of-2016-commits-to-uconn","content":"Top 25 PG prospect Gilbert commits to UConn"},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25233666/louisiana-tech-transfer-stapleton-headed-to-mississippi-state","content":"La. Tech transfer Stapleton to Mississippi State"},{"paid":"false","href":"http://www.cbssports.com/collegebasketball/eye-on-college-basketball/25231936/dukes-mike-krzyzewski-talks-lakers-2016-team-in-local-town-hall","content":"Coach K tweaks Lakers, talks 2016 in town hall"}]},"fantasy news":{"minicover":{"body":" Like DeSean Jackson and LeSean McCoy, Jeremy Maclin is done in Philly. But <b>Jamey Eisenberg</b> likes the younger receivers these Eagles will feature. <a om-nope=\"GlobalNav|Fantasy|Cover|Story\" href=\"http://fantasynews.cbssports.com/fantasyfootball/story/25225958/offseason-extra-eagles-passing-game\">Full Story</a>  ","synopsis":"Eagles: Passing it on","photo":{"width":"320","seq_no":"0","content_id":"25226216","href":"$IMAGE_SERVER/u/photos/fantasy/football/img25226216.jpg","height":"180"},"href":"http://fantasynews.cbssports.com/fantasyfootball/story/25225958/offseason-extra-eagles-passing-game","title":"Eagles: Passing it on"},"headlines":[{"paid":null,"href":null,"content":null}]},"worldcup":{"minicover":{"body":" <p> John Brooks' header to send the US past Ghana. Brazil's epic collapse. Mario Gotze's clinching goal in the final. We hand out awards for the best moments in Brazil. <a om-nope=\"GlobalNav|WorldCup|Cover|Story\" href=\"http://www.cbssports.com/world-cup/eye-on-world-cup/24620523/cbssportscom-2014-fifa-world-cup-awards-best-moments\">Story</a> ","synopsis":"World Cup in review","photo":{"width":"231","seq_no":"1","content_id":"24620624","href":"$IMAGE_SERVER/u/photos/soccer/img24620624.jpg","height":"130"},"href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24620523/cbssportscom-2014-fifa-world-cup-awards-best-moments","title":"World Cup's best moments"},"headlines":[{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24622027/world-cup-final-sets-usa-television-record-with-265-million-viewers","content":"Cup final sets ratings mark for soccer on US TV"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24621936/watch-massive-crowd-celebrates-germanys-world-cup-victory","content":"Massive crowd toasts German team in Berlin"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24620830/maradona-claims-messis-golden-ball-award-just-a-marketing-plan","content":"Maradona: Messi undeserving of Golden Ball"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24620634/world-cup-2018-odds-germany-early-favorite-to-repeat-us-50-to-1","content":"Germany early favorite for the 2018 World Cup"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24620345/brazil-coach-luiz-felipe-scolari-out-after-disastrous-end-to-world-cup","content":"Brazil boots manager after ugly World Cup finish"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24619193/report-suarez-will-lose-millions-from-barcelona-if-he-bites-anyone","content":"Suarez will lose millions from Barca if he bites"},{"paid":"false","href":"http://www.cbssports.com/world-cup/eye-on-world-cup/24615958/fifa-world-cup-final-germany-vs-argentina-preview","content":"Germany edges Argentina to win '14 World Cup"}]}};
+        if (globalNav && navContentJson) {globalNav.init(navContentJson);}
+        CBSi.globalNav = globalNav;
+    });
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+         $('#headerTvRotator').innerfade({ animationtype: 'fade', speed: 250, timeout: 10000, type: 'sequence', containerheight: '40px' }); 
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "scroll", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var mantelSkinOffset = $('#mantle_skin').offset();
+            if ( mantelSkinOffset ) {
+                $(window).scroll(function(e){
+                    var windowScroll = $(window).scrollTop();
+                    $('#ads_skinOnloadGif>div').css('top','0');
+                    if(windowScroll > mantelSkinOffset.top){ 
+                        $('#mantle_skin').attr('style','background-attachment: fixed !important');
+                        $('#ads_skinOnloadGif>div').css('position','fixed');
+                    }else{
+                        $('#mantle_skin').attr('style','background-attachment: inherit !important');
+                        $('#ads_skinOnloadGif>div').css('position','relative');
+                    }
+                    /* console.log('end skin scroll ' +windowScroll); */
+                });
+            }
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+    });
+    </script>
+</span>
+
+<!-- AFC Football Redirect Handler -->
+<!-- Can be removed after AFC championship 2015 -->
+<script>
+$(function() {
+    // in case cover content needs the redirect attributes
+    $( "#coverList .content a" ).each(function() {
+        var href = $(this).prop('href');
+        if ((href.indexOf('nfl\/video\/afc-playoffs') > -1) || (href.indexOf('video\/player\/afc-playoffs') > -1)){
+            if ($(this).data('redirect') == null){
+                $(this).attr("data-redirect","/nfl/gametracker/NFL_20150118_IND@NE");
+            }
+        }
+    });
+    /*
+    // in case dropdown content needs the redirect attributes
+    $( ".navMenuContent .topStory a" ).each(function() {
+        var href = $(this).prop('href');
+        if ((href.indexOf('nfl\/video\/afc-playoffs') > -1) || (href.indexOf('video\/player\/afc-playoffs') > -1)){
+            if ($(this).data('redirect') == null){
+                $(this).attr("data-redirect","/nfl/gametracker/NFL_20150111_IND@DEN");
+            }
+        }
+    });
+    */
+    // swap out the redir data element for a click event
+    $('body').delegate('a[data-redirect]', 'click', function(e) {
+        e.preventDefault();
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf('iphone') > -1 || (ua.indexOf('android') > -1 && ua.indexOf('mobile') > -1)){
+            window.location.href = "http://mweb.cbssports.com/nfl/afc-playoffs";
+        }
+        else{
+            if (ua.indexOf('android') > -1){
+                window.location.href = "http://www.cbssports.com/nfl/afc-playoffs-support";
+            }
+            else{
+                var redirectLink = $(this).data('redirect');
+                redirectLink = redirectLink.replace("gametracker/NFL","gametracker/live/NFL");
+                var redirectNoBita = redirectLink + "?bita_force_off=1";
+                var href = $(this).prop('href');
+                openPopup(href, 'afcplayoffs', 722, 463);
+                console.log(redirectNoBita);
+                window.location.href = redirectNoBita;
+            }
+        }
+    });
+});
+</script>
+<!-- no ClickTale --><!-- DARK TESTS - enabled [8] --><!-- DARK RIVER TEST/ sports_river - disabled [0 < 8] --><!-- DARK TEST/ node stress - disabled [0] --><!-- DARK TEST/ websocket - disabled [0] -->
+
+
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+var utag_data={
+
+    siteHier         : 'media|mlb|gametracker|box scores',
+    siteSection      : 'media|mlb|||gametracker|box scores',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'scoring',
+    pageName         : '/mlb/gametracker/boxscore/MLB_20150405_STL@CHC',
+    pageTypeId       : '6946',
+    pageOntologyId   : '23662',
+    bkPath           : 'aw-cbssports/mlb/media/gametracker/gamecenter_boxscores',
+    pageViewGuid     : surround.vguid
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='//tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+    
+</body>
+</html><!-- Page build info: VZ6T5gq0G60AAC8QZB8 'ws1273.tm.cbsig.net' 12048 20150709 11:31:50 /spln/local/media/cache/full/spln/1065/%2Fmlb%2Fgametracker%2Fboxscore%2FMLB_20150405_STL%40CHC -->

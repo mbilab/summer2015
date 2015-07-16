@@ -45,10 +45,10 @@ I am dirty but I am not dirty.\n
 )\n
 ";
 @_ = /\((.*?)\)/g;
-# print Dump join '|', @_; # nothing is extracted?
+print Dump join '|', @_; # nothing is extracted?
 @_ = /\((.*?)\)/gs;
-print $_[0]; # nothing is extracted?
-print $_[1]; # nothing is extracted?
+#print $_[0]; # nothing is extracted?
+#print $_[1]; # nothing is extracted?
 
 
 # vi:sw=4:ts=4
