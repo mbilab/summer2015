@@ -11,11 +11,45 @@
     -->
   </head>
   <body>
-	  <svg width="200px" height="200px" viewbox="0 0 200 200" preserveAspectRatio="xMid yMid"> 
-		  <rect x="50" y="50" width="50" height="50">
-		  	<animate attributeName="width" from="100" to="10" dur="1s" repeatCount="indefinite"/>
-		  </rect>
-	  </svg>
+	  <h1>exercise-1</h1>
+	  <svg width="1200px" height="200px" viewbox="0 0 1200 200" class="s1"/>
+	  <h1>exercise-2</h1>
+	  <svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s2"/>
+	  <h1>exercise-3</h1>
+	  <svg width="1200px" height="600px" viewbox="0 0 1200 600" class="s3"/>
+	  <script>
+	  	  var v1 = d3.select('.s1').selectAll('.s1 circle').data([3,1,4,1,5,9,2,6,5,3,5,8,9,7,9]);
+		  v1.enter().append('circle').attr({
+			  cx: function(d, i){return i * 70 + 10;},
+			  cy: 100,
+			  r: function(d, i){return d*3.4;},
+			  fill: function(d, i){return 'rgba(' + (i*15) + ',128,192,1)';}
+		  });
+		
+		  d3.json('topic2.json', function(data){
+		  	  var root = {children: data.map(function(d) {return {value: d};})};
+			  var color = d3.scale.category20();
+			  var nodes = d3.layout.pack().size([1200, 600]).nodes(root);
+			  nodes.shift();
+			  console.log(nodes);
+			  var v3 = d3.select('.s3').selectAll('.s3 circle').data(nodes);
+			  v3.enter().append('circle')
+			  .attr({
+			  	  cx: function(d){return d.x;},
+				  cy: function(d){return d.y;},
+				  r: function(d){return d.r;},
+				  stroke: 'black',
+				  fill: function(d){return color(d.r);}
+			  });
+			  d3.select('.s3').selectAll('text').data(nodes).enter()
+			  	  .append('text')
+				  .attr({
+				  	  x: function(d){return d.x;},
+					  y: function(d){return d.y;},
+				  	  "text-anchor": "middle"
+				  }).text(function(d){return d.value;});
+		  });
+	  </script>
 
   <!-- Start here -->
 
