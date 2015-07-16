@@ -11,13 +11,26 @@
 		-->
 	</head>
 	<body>
-
 		<!-- Start here -->
 		<svg width="200px" height="200px" viewbox="0 0 200 200" preserveAspectRatio="xMidYMid" style="border:1px solid #000">
 			<ellipse cx="30" cy="40" rx="10" ry="20" fill = "#F99"></ellipse>
 			<ellipse cx="170" cy="40" rx="10" ry="20" fill = "#F99"></ellipse>
-			<path d="M40,100 C40,150,160,150,160,100 Z"
+			<path d="M40,100 C40,150,160,150,160,100 Z">
 		</svg>
-
+		<svg width="1000px" height="200px" preserveAspectRatio="xMidYMid" style="border:1px solid #000" class="cir" >
+		</svg>
+	
+	<script>	
+		var dat = [3,1,4,1,5,9,2,6,5,3,5,8,9,7,9];
+		var v4 = d3.select(".cir").selectAll("circle").data(dat);
+		v4.exit().remove();
+		v4.enter().append("circle");
+		v4.attr("cx", function(d,i){
+			return i*150+50;
+		}).attr("cy", 100)
+		.attr("r", function(d,i){
+			return d*10;
+		});
+	</script>
 	</body>
 </html>
