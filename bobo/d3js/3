@@ -27,51 +27,6 @@
               r:radius,
               fill:"#000"});
     </script>
-    <svg width="1200px" height="600px" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid" style="border: 1px solid #000" class="e2s"></svg>  
-    <script>  
-    d3.json('topic2-2.json',function(data){
-      var x = [],y = [], r = [];
-      for(var i = 0;i < data.length ;i++)
-      {
-        x[i] = data[i][0];
-        y[i] = data[i][1];
-        r[i] = data[i][2];
-      }
-      var mapx = d3.scale.pow().exponent(4).domain([d3.min(x),d3.max(x)]).range([100,1200]);
-      ticks = mapx.ticks(50);
-      var vx = d3.select(".e2s").selectAll("rect.xx").data(ticks);
-      vx.enter().append("rect").attr("class","xx");
-      d3.select(".e2s").selectAll("rect.xx").attr({
-        y: 500,
-        height: 5,
-        x: mapx,
-        width: 1,
-        fill: "#000"
-      });
-      var mapy = d3.scale.pow().domain([d3.min(y),d3.max(y)]).exponent(4).range([500,-100]);
-      ticks = mapy.ticks(50);
-      var vy = d3.select(".e2s").selectAll("rect.yy").data(ticks);
-      vy.enter().append("rect").attr("class","yy");
-      d3.select(".e2s").selectAll("rect.yy").attr({
-        y: mapy,
-        height: 1,
-        x: 100,
-        width: 5,
-        fill: "#000"
-      });
-      var color = d3.scale.linear().domain([1,10]).range(["#090","#f00"]);
-      d3.select(".e2s").selectAll("circle.e2s").data(r).enter().append('circle')
-        .attr({
-          cx: function(d,i){return mapx(x[i]);},
-          cy: function(d,i){return mapy(y[i]);},
-          r: function(d,i){return d;},
-          fill: function(d,i){return color(d);}
-        });
-            //.text(function(d){return d.value;});
-      //var vr = d3.select(".e2s").selectAll("circle.e4").data(ticks);
-      //map.interpolate(function(i){return data[i][2];}).range(["#090","#f00"]);
-    });
-    </script>
     <svg class="test2" width="900px" height="600px" viewBox="0 0 900 400" preserveAspectRatio="xMidYMid"/>
     <script>
       var dt=[3,1,4,1,5,9,2,6,5,3,5,8];
