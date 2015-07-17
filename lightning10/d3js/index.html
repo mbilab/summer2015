@@ -69,7 +69,7 @@
 			});
 			// points
 			var v2 = d3.select('.s2').selectAll('.s2 circle').data(v);
-			var color = d3.scale.category20();
+			var color = d3.scale.linear().domain([1,10]).range(["#090","#f00"]);
 			v2.enter().append('circle').attr({
 				cx: function(d, i){ return x_axis(x[i]);},
 				cy: function(d, i){ return y_axis(y[i]);},
