@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fast-html-parser": "^1.0.1",
     "fs": "0.0.2",
-    "sh": "0.0.3",
-    "tabletojson": "^0.2.1"
+    "sh": "0.0.3"
   }
 }
