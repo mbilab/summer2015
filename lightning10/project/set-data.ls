@@ -29,17 +29,16 @@ sh('ls ' + path.src).result (r) !-> # get all days
   output day, game, json
   build-json day, games, cb
 
+!function get-data day, game, cb
+  (err, data) <-! fs.read-file (path.src + "/#day/#game"), encoding: \utf-8
+  throw err if err
+  cb html.parse data
+
 !function set data, obj, cb
   <-! set-score data, obj
   return cb! if it?
   <-! set-data data, obj
   cb!
-
-!function get-data day, game, cb
-  src = path.src
-  (err, data) <-! fs.read-file "#src/#day/#game", encoding: \utf-8
-  throw err if err
-  cb html.parse data
 
 !function set-score data, obj, cb
   period = data.query-selector '.lineScore .periodLabels'
@@ -47,7 +46,7 @@ sh('ls ' + path.src).result (r) !-> # get all days
   home = data.query-selector '.lineScore .homeTeam'
   away = data.query-selector '.lineScore .awayTeam'
   inning = []
-  for i in period.child-nodes => inning.push i.text if i.child-nodes.length isnt 0
+  for i in period.child-nodes => inning.push i.text
   score-map home, \home
   score-map away, \away
   cb!
@@ -55,7 +54,7 @@ sh('ls ' + path.src).result (r) !-> # get all days
   !function score-map item, type
     name = item.query-selector '.teamLocation a'
     _obj = obj[type].inning? = name: name.text
-    for i, j in item.child-nodes => _obj[inning[j - 1]] = i.text if j isnt 0
+    for i, j in item.child-nodes => _obj[inning[j]] = i.text if j isnt 0
 
 !function set-data data, obj, cb
   labels = data.query-selector-all '.data .label'
